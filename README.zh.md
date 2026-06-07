@@ -7,73 +7,73 @@
     </picture>
   </a>
 </p>
-<p align="center">开源的 AI Coding Agent。</p>
+<p align="center">å¼€æºçš„ AI Coding Agentã€‚</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
 
 ---
 
-### 安装
+### å®‰è£…
 
 ```bash
-# 直接安装 (YOLO)
+# ç›´æŽ¥å®‰è£… (YOLO)
 curl -fsSL https://opencode.ai/install | bash
 
-# 软件包管理器
-npm i -g opencode-ai@latest        # 也可使用 bun/pnpm/yarn
+# è½¯ä»¶åŒ…ç®¡ç†å™¨
+npm i -g opencode-ai@latest        # ä¹Ÿå¯ä½¿ç”¨ bun/pnpm/yarn
 scoop install opencode             # Windows
 choco install opencode             # Windows
-brew install anomalyco/tap/opencode # macOS 和 Linux（推荐，始终保持最新）
-brew install opencode              # macOS 和 Linux（官方 brew formula，更新频率较低）
+brew install anomalyco/tap/opencode # macOS å’Œ Linuxï¼ˆæŽ¨èï¼Œå§‹ç»ˆä¿æŒæœ€æ–°ï¼‰
+brew install opencode              # macOS å’Œ Linuxï¼ˆå®˜æ–¹ brew formulaï¼Œæ›´æ–°é¢‘çŽ‡è¾ƒä½Žï¼‰
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
-mise use -g opencode               # 任意系统
-nix run nixpkgs#opencode           # 或用 github:hostclube/atuscode 获取最新 dev 分支
+mise use -g opencode               # ä»»æ„ç³»ç»Ÿ
+nix run nixpkgs#opencode           # æˆ–ç”¨ github:antonioan23/atuscode èŽ·å–æœ€æ–° dev åˆ†æ”¯
 ```
 
 > [!TIP]
-> 安装前请先移除 0.1.x 之前的旧版本。
+> å®‰è£…å‰è¯·å…ˆç§»é™¤ 0.1.x ä¹‹å‰çš„æ—§ç‰ˆæœ¬ã€‚
 
-### 桌面应用程序 (BETA)
+### æ¡Œé¢åº”ç”¨ç¨‹åº (BETA)
 
-OpenCode 也提供桌面版应用。可直接从 [发布页 (releases page)](https://github.com/hostclube/atuscode/releases) 或 [opencode.ai/download](https://opencode.ai/download) 下载。
+OpenCode ä¹Ÿæä¾›æ¡Œé¢ç‰ˆåº”ç”¨ã€‚å¯ç›´æŽ¥ä»Ž [å‘å¸ƒé¡µ (releases page)](https://github.com/antonioan23/atuscode/releases) æˆ– [opencode.ai/download](https://opencode.ai/download) ä¸‹è½½ã€‚
 
-| 平台                  | 下载文件                           |
+| å¹³å°                  | ä¸‹è½½æ–‡ä»¶                           |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
 | Windows               | `opencode-desktop-windows-x64.exe` |
-| Linux                 | `.deb`、`.rpm` 或 AppImage         |
+| Linux                 | `.deb`ã€`.rpm` æˆ– AppImage         |
 
 ```bash
 # macOS (Homebrew Cask)
@@ -82,47 +82,47 @@ brew install --cask opencode-desktop
 scoop bucket add extras; scoop install extras/opencode-desktop
 ```
 
-#### 安装目录
+#### å®‰è£…ç›®å½•
 
-安装脚本按照以下优先级决定安装路径：
+å®‰è£…è„šæœ¬æŒ‰ç…§ä»¥ä¸‹ä¼˜å…ˆçº§å†³å®šå®‰è£…è·¯å¾„ï¼š
 
-1. `$OPENCODE_INSTALL_DIR` - 自定义安装目录
-2. `$XDG_BIN_DIR` - 符合 XDG 基础目录规范的路径
-3. `$HOME/bin` - 如果存在或可创建的用户二进制目录
-4. `$HOME/.opencode/bin` - 默认备用路径
+1. `$OPENCODE_INSTALL_DIR` - è‡ªå®šä¹‰å®‰è£…ç›®å½•
+2. `$XDG_BIN_DIR` - ç¬¦åˆ XDG åŸºç¡€ç›®å½•è§„èŒƒçš„è·¯å¾„
+3. `$HOME/bin` - å¦‚æžœå­˜åœ¨æˆ–å¯åˆ›å»ºçš„ç”¨æˆ·äºŒè¿›åˆ¶ç›®å½•
+4. `$HOME/.opencode/bin` - é»˜è®¤å¤‡ç”¨è·¯å¾„
 
 ```bash
-# 示例
+# ç¤ºä¾‹
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 
 ### Agents
 
-OpenCode 内置两种 Agent，可用 `Tab` 键快速切换：
+OpenCode å†…ç½®ä¸¤ç§ Agentï¼Œå¯ç”¨ `Tab` é”®å¿«é€Ÿåˆ‡æ¢ï¼š
 
-- **build** - 默认模式，具备完整权限，适合开发工作
-- **plan** - 只读模式，适合代码分析与探索
-  - 默认拒绝修改文件
-  - 运行 bash 命令前会询问
-  - 便于探索未知代码库或规划改动
+- **build** - é»˜è®¤æ¨¡å¼ï¼Œå…·å¤‡å®Œæ•´æƒé™ï¼Œé€‚åˆå¼€å‘å·¥ä½œ
+- **plan** - åªè¯»æ¨¡å¼ï¼Œé€‚åˆä»£ç åˆ†æžä¸ŽæŽ¢ç´¢
+  - é»˜è®¤æ‹’ç»ä¿®æ”¹æ–‡ä»¶
+  - è¿è¡Œ bash å‘½ä»¤å‰ä¼šè¯¢é—®
+  - ä¾¿äºŽæŽ¢ç´¢æœªçŸ¥ä»£ç åº“æˆ–è§„åˆ’æ”¹åŠ¨
 
-另外还包含一个 **general** 子 Agent，用于复杂搜索和多步任务，内部使用，也可在消息中输入 `@general` 调用。
+å¦å¤–è¿˜åŒ…å«ä¸€ä¸ª **general** å­ Agentï¼Œç”¨äºŽå¤æ‚æœç´¢å’Œå¤šæ­¥ä»»åŠ¡ï¼Œå†…éƒ¨ä½¿ç”¨ï¼Œä¹Ÿå¯åœ¨æ¶ˆæ¯ä¸­è¾“å…¥ `@general` è°ƒç”¨ã€‚
 
-了解更多 [Agents](https://opencode.ai/docs/agents) 相关信息。
+äº†è§£æ›´å¤š [Agents](https://opencode.ai/docs/agents) ç›¸å…³ä¿¡æ¯ã€‚
 
-### 文档
+### æ–‡æ¡£
 
-更多配置说明请查看我们的 [**官方文档**](https://opencode.ai/docs)。
+æ›´å¤šé…ç½®è¯´æ˜Žè¯·æŸ¥çœ‹æˆ‘ä»¬çš„ [**å®˜æ–¹æ–‡æ¡£**](https://opencode.ai/docs)ã€‚
 
-### 参与贡献
+### å‚ä¸Žè´¡çŒ®
 
-如有兴趣贡献代码，请在提交 PR 前阅读 [贡献指南 (Contributing Docs)](./CONTRIBUTING.md)。
+å¦‚æœ‰å…´è¶£è´¡çŒ®ä»£ç ï¼Œè¯·åœ¨æäº¤ PR å‰é˜…è¯» [è´¡çŒ®æŒ‡å— (Contributing Docs)](./CONTRIBUTING.md)ã€‚
 
-### 基于 OpenCode 进行开发
+### åŸºäºŽ OpenCode è¿›è¡Œå¼€å‘
 
-如果你在项目名中使用了 “opencode”（如 “opencode-dashboard” 或 “opencode-mobile”），请在 README 里注明该项目不是 OpenCode 团队官方开发，且不存在隶属关系。
+å¦‚æžœä½ åœ¨é¡¹ç›®åä¸­ä½¿ç”¨äº† â€œopencodeâ€ï¼ˆå¦‚ â€œopencode-dashboardâ€ æˆ– â€œopencode-mobileâ€ï¼‰ï¼Œè¯·åœ¨ README é‡Œæ³¨æ˜Žè¯¥é¡¹ç›®ä¸æ˜¯ OpenCode å›¢é˜Ÿå®˜æ–¹å¼€å‘ï¼Œä¸”ä¸å­˜åœ¨éš¶å±žå…³ç³»ã€‚
 
 ---
 
-**加入我们的社区** [飞书](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=738j8655-cd59-4633-a30a-1124e0096789&qr_code=true) | [X.com](https://x.com/opencode)
+**åŠ å…¥æˆ‘ä»¬çš„ç¤¾åŒº** [é£žä¹¦](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=738j8655-cd59-4633-a30a-1124e0096789&qr_code=true) | [X.com](https://x.com/opencode)

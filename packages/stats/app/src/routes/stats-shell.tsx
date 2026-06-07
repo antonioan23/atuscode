@@ -14,8 +14,8 @@ export const headerLinks = [
   { href: "#geo-breakdown", label: "Geo Breakdown" },
 ] as const
 export const githubLink = {
-  href: "https://github.com/hostclube/atuscode",
-  apiHref: "https://api.github.com/repos/hostclube/atuscode",
+  href: "https://github.com/antonioan23/atuscode",
+  apiHref: "https://api.github.com/repos/antonioan23/atuscode",
   label: "GitHub",
   fallbackStars: "150K",
   ariaLabel: "Star OpenCode on GitHub",
@@ -267,7 +267,7 @@ export function Footer(props: {
       <div data-slot="footer-pattern" aria-hidden="true" />
       <div data-slot="footer-bottom">
         <div>
-          <span>© 2026 Anomaly Innovations Inc.</span>
+          <span>Â© 2026 Anomaly Innovations Inc.</span>
           <span data-slot="status">All systems Operational</span>
         </div>
         <div data-slot="theme-toggle" role="group" aria-label="Theme">
@@ -300,7 +300,7 @@ function SectionBridge(props: { label: string; href: string }) {
       <span>LEAN MORE</span>
       <i />
       <strong>{props.label}</strong>
-      <b>▸</b>
+      <b>â–¸</b>
     </a>
   )
 }

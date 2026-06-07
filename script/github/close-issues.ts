@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 
-const repo = "hostclube/atuscode"
+const repo = "antonioan23/atuscode"
 const days = 60
 const msg = `To stay organized issues are automatically closed after ${days} days of no activity. If the issue is still relevant please open a new one.`
 

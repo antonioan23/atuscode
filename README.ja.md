@@ -7,73 +7,73 @@
     </picture>
   </a>
 </p>
-<p align="center">オープンソースのAIコーディングエージェント。</p>
+<p align="center">ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹ã®AIã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆã€‚</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
 
 ---
 
-### インストール
+### ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ```bash
 # YOLO
 curl -fsSL https://opencode.ai/install | bash
 
-# パッケージマネージャー
-npm i -g opencode-ai@latest        # bun/pnpm/yarn でもOK
+# ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ãƒžãƒãƒ¼ã‚¸ãƒ£ãƒ¼
+npm i -g opencode-ai@latest        # bun/pnpm/yarn ã§ã‚‚OK
 scoop install opencode             # Windows
 choco install opencode             # Windows
-brew install anomalyco/tap/opencode # macOS と Linux（推奨。常に最新）
-brew install opencode              # macOS と Linux（公式 brew formula。更新頻度は低め）
+brew install anomalyco/tap/opencode # macOS ã¨ Linuxï¼ˆæŽ¨å¥¨ã€‚å¸¸ã«æœ€æ–°ï¼‰
+brew install opencode              # macOS ã¨ Linuxï¼ˆå…¬å¼ brew formulaã€‚æ›´æ–°é »åº¦ã¯ä½Žã‚ï¼‰
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
-mise use -g opencode               # どのOSでも
-nix run nixpkgs#opencode           # または github:hostclube/atuscode で最新 dev ブランチ
+mise use -g opencode               # ã©ã®OSã§ã‚‚
+nix run nixpkgs#opencode           # ã¾ãŸã¯ github:antonioan23/atuscode ã§æœ€æ–° dev ãƒ–ãƒ©ãƒ³ãƒ
 ```
 
 > [!TIP]
-> インストール前に 0.1.x より古いバージョンを削除してください。
+> ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å‰ã« 0.1.x ã‚ˆã‚Šå¤ã„ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’å‰Šé™¤ã—ã¦ãã ã•ã„ã€‚
 
-### デスクトップアプリ (BETA)
+### ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ã‚¢ãƒ—ãƒª (BETA)
 
-OpenCode はデスクトップアプリとしても利用できます。[releases page](https://github.com/hostclube/atuscode/releases) から直接ダウンロードするか、[opencode.ai/download](https://opencode.ai/download) を利用してください。
+OpenCode ã¯ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ã‚¢ãƒ—ãƒªã¨ã—ã¦ã‚‚åˆ©ç”¨ã§ãã¾ã™ã€‚[releases page](https://github.com/antonioan23/atuscode/releases) ã‹ã‚‰ç›´æŽ¥ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã‹ã€[opencode.ai/download](https://opencode.ai/download) ã‚’åˆ©ç”¨ã—ã¦ãã ã•ã„ã€‚
 
-| プラットフォーム      | ダウンロード                       |
+| ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ       | ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰                       |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
 | Windows               | `opencode-desktop-windows-x64.exe` |
-| Linux                 | `.deb`、`.rpm`、または AppImage    |
+| Linux                 | `.deb`ã€`.rpm`ã€ã¾ãŸã¯ AppImage    |
 
 ```bash
 # macOS (Homebrew)
@@ -82,48 +82,48 @@ brew install --cask opencode-desktop
 scoop bucket add extras; scoop install extras/opencode-desktop
 ```
 
-#### インストールディレクトリ
+#### ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 
-インストールスクリプトは、インストール先パスを次の優先順位で決定します。
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚¹ã‚¯ãƒªãƒ—ãƒˆã¯ã€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å…ˆãƒ‘ã‚¹ã‚’æ¬¡ã®å„ªå…ˆé †ä½ã§æ±ºå®šã—ã¾ã™ã€‚
 
-1. `$OPENCODE_INSTALL_DIR` - カスタムのインストールディレクトリ
-2. `$XDG_BIN_DIR` - XDG Base Directory Specification に準拠したパス
-3. `$HOME/bin` - 標準のユーザー用バイナリディレクトリ（存在する場合、または作成できる場合）
-4. `$HOME/.opencode/bin` - デフォルトのフォールバック
+1. `$OPENCODE_INSTALL_DIR` - ã‚«ã‚¹ã‚¿ãƒ ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
+2. `$XDG_BIN_DIR` - XDG Base Directory Specification ã«æº–æ‹ ã—ãŸãƒ‘ã‚¹
+3. `$HOME/bin` - æ¨™æº–ã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ç”¨ãƒã‚¤ãƒŠãƒªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªï¼ˆå­˜åœ¨ã™ã‚‹å ´åˆã€ã¾ãŸã¯ä½œæˆã§ãã‚‹å ´åˆï¼‰
+4. `$HOME/.opencode/bin` - ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ•ã‚©ãƒ¼ãƒ«ãƒãƒƒã‚¯
 
 ```bash
-# 例
+# ä¾‹
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 
 ### Agents
 
-OpenCode には組み込みの Agent が2つあり、`Tab` キーで切り替えられます。
+OpenCode ã«ã¯çµ„ã¿è¾¼ã¿ã® Agent ãŒ2ã¤ã‚ã‚Šã€`Tab` ã‚­ãƒ¼ã§åˆ‡ã‚Šæ›¿ãˆã‚‰ã‚Œã¾ã™ã€‚
 
-- **build** - デフォルト。開発向けのフルアクセス Agent
-- **plan** - 分析とコード探索向けの読み取り専用 Agent
-  - デフォルトでファイル編集を拒否
-  - bash コマンド実行前に確認
-  - 未知のコードベース探索や変更計画に最適
+- **build** - ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã€‚é–‹ç™ºå‘ã‘ã®ãƒ•ãƒ«ã‚¢ã‚¯ã‚»ã‚¹ Agent
+- **plan** - åˆ†æžã¨ã‚³ãƒ¼ãƒ‰æŽ¢ç´¢å‘ã‘ã®èª­ã¿å–ã‚Šå°‚ç”¨ Agent
+  - ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ãƒ•ã‚¡ã‚¤ãƒ«ç·¨é›†ã‚’æ‹’å¦
+  - bash ã‚³ãƒžãƒ³ãƒ‰å®Ÿè¡Œå‰ã«ç¢ºèª
+  - æœªçŸ¥ã®ã‚³ãƒ¼ãƒ‰ãƒ™ãƒ¼ã‚¹æŽ¢ç´¢ã‚„å¤‰æ›´è¨ˆç”»ã«æœ€é©
 
-また、複雑な検索やマルチステップのタスク向けに **general** サブ Agent も含まれています。
-内部的に使用されており、メッセージで `@general` と入力して呼び出せます。
+ã¾ãŸã€è¤‡é›‘ãªæ¤œç´¢ã‚„ãƒžãƒ«ãƒã‚¹ãƒ†ãƒƒãƒ—ã®ã‚¿ã‚¹ã‚¯å‘ã‘ã« **general** ã‚µãƒ– Agent ã‚‚å«ã¾ã‚Œã¦ã„ã¾ã™ã€‚
+å†…éƒ¨çš„ã«ä½¿ç”¨ã•ã‚Œã¦ãŠã‚Šã€ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã§ `@general` ã¨å…¥åŠ›ã—ã¦å‘¼ã³å‡ºã›ã¾ã™ã€‚
 
-[agents](https://opencode.ai/docs/agents) の詳細はこちら。
+[agents](https://opencode.ai/docs/agents) ã®è©³ç´°ã¯ã“ã¡ã‚‰ã€‚
 
-### ドキュメント
+### ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ
 
-OpenCode の設定については [**ドキュメント**](https://opencode.ai/docs) を参照してください。
+OpenCode ã®è¨­å®šã«ã¤ã„ã¦ã¯ [**ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ**](https://opencode.ai/docs) ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
 
-### コントリビュート
+### ã‚³ãƒ³ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ
 
-OpenCode に貢献したい場合は、Pull Request を送る前に [contributing docs](./CONTRIBUTING.md) を読んでください。
+OpenCode ã«è²¢çŒ®ã—ãŸã„å ´åˆã¯ã€Pull Request ã‚’é€ã‚‹å‰ã« [contributing docs](./CONTRIBUTING.md) ã‚’èª­ã‚“ã§ãã ã•ã„ã€‚
 
-### OpenCode の上に構築する
+### OpenCode ã®ä¸Šã«æ§‹ç¯‰ã™ã‚‹
 
-OpenCode に関連するプロジェクトで、名前に "opencode"（例: "opencode-dashboard" や "opencode-mobile"）を含める場合は、そのプロジェクトが OpenCode チームによって作られたものではなく、いかなる形でも関係がないことを README に明記してください。
+OpenCode ã«é–¢é€£ã™ã‚‹ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã§ã€åå‰ã« "opencode"ï¼ˆä¾‹: "opencode-dashboard" ã‚„ "opencode-mobile"ï¼‰ã‚’å«ã‚ã‚‹å ´åˆã¯ã€ãã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãŒ OpenCode ãƒãƒ¼ãƒ ã«ã‚ˆã£ã¦ä½œã‚‰ã‚ŒãŸã‚‚ã®ã§ã¯ãªãã€ã„ã‹ãªã‚‹å½¢ã§ã‚‚é–¢ä¿‚ãŒãªã„ã“ã¨ã‚’ README ã«æ˜Žè¨˜ã—ã¦ãã ã•ã„ã€‚
 
 ---
 
-**コミュニティに参加** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+**ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã«å‚åŠ ** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)

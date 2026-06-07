@@ -112,7 +112,7 @@ for (const item of targets) {
         name: `@hostclube/${name}`,
         version: Script.version,
         license: "MIT",
-        repository: { type: "git", url: "git+https://github.com/hostclube/atuscode.git" },
+        repository: { type: "git", url: "git+https://github.com/antonioan23/atuscode.git" },
         os: [item.os],
         cpu: [item.arch],
       },

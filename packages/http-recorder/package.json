@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hostclube/atuscode.git",
+    "url": "git+https://github.com/antonioan23/atuscode.git",
     "directory": "packages/http-recorder"
   },
-  "homepage": "https://github.com/hostclube/atuscode/tree/dev/packages/http-recorder",
-  "bugs": "https://github.com/hostclube/atuscode/issues",
+  "homepage": "https://github.com/antonioan23/atuscode/tree/dev/packages/http-recorder",
+  "bugs": "https://github.com/antonioan23/atuscode/issues",
   "keywords": [
     "effect",
     "http",

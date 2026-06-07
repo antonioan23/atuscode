@@ -50,7 +50,7 @@ jobs:
 
       - name: Install atuscode
         if: steps.changes.outputs.has_changes == 'true'
-        run: # Install atuscode: see hostclube/atuscode README for installation
+        run: # Install atuscode: see antonioan23/atuscode README for installation
 
       - name: Sync locale docs with OpenCode
         if: steps.changes.outputs.has_changes == 'true'

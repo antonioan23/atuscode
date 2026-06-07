@@ -31,13 +31,13 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 
   <content_rating type="oars-1.1" />
 
-  <url type="bugtracker">https://github.com/hostclube/atuscode/issues</url>
+  <url type="bugtracker">https://github.com/antonioan23/atuscode/issues</url>
   <url type="homepage">https://opencode.ai</url>
-  <url type="vcs-browser">https://github.com/hostclube/atuscode</url>
+  <url type="vcs-browser">https://github.com/antonioan23/atuscode</url>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/hostclube/atuscode/b75d4d1c5ec449585d515c756fc81f080a157a9a/packages/web/src/assets/lander/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/antonioan23/atuscode/b75d4d1c5ec449585d515c756fc81f080a157a9a/packages/web/src/assets/lander/screenshot.png</image>
     </screenshot>
   </screenshots>
 </component>

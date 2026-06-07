@@ -7,43 +7,43 @@
     </picture>
   </a>
 </p>
-<p align="center">ওপেন সোর্স এআই কোডিং এজেন্ট।</p>
+<p align="center">à¦“à¦ªà§‡à¦¨ à¦¸à§‹à¦°à§à¦¸ à¦à¦†à¦‡ à¦•à§‹à¦¡à¦¿à¦‚ à¦à¦œà§‡à¦¨à§à¦Ÿà¥¤</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
 
 ---
 
-### ইনস্টলেশন (Installation)
+### à¦‡à¦¨à¦¸à§à¦Ÿà¦²à§‡à¦¶à¦¨ (Installation)
 
 ```bash
 # YOLO
@@ -58,17 +58,17 @@ brew install opencode              # macOS and Linux (official brew formula, upd
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
 mise use -g opencode               # Any OS
-nix run nixpkgs#opencode           # or github:hostclube/atuscode for latest dev branch
+nix run nixpkgs#opencode           # or github:antonioan23/atuscode for latest dev branch
 ```
 
 > [!TIP]
-> ইনস্টল করার আগে ০.১.x এর চেয়ে পুরোনো ভার্সনগুলো মুছে ফেলুন।
+> à¦‡à¦¨à¦¸à§à¦Ÿà¦² à¦•à¦°à¦¾à¦° à¦†à¦—à§‡ à§¦.à§§.x à¦à¦° à¦šà§‡à§Ÿà§‡ à¦ªà§à¦°à§‹à¦¨à§‹ à¦­à¦¾à¦°à§à¦¸à¦¨à¦—à§à¦²à§‹ à¦®à§à¦›à§‡ à¦«à§‡à¦²à§à¦¨à¥¤
 
-### ডেস্কটপ অ্যাপ (BETA)
+### à¦¡à§‡à¦¸à§à¦•à¦Ÿà¦ª à¦…à§à¦¯à¦¾à¦ª (BETA)
 
-OpenCode ডেস্কটপ অ্যাপ্লিকেশন হিসেবেও উপলব্ধ। সরাসরি [রিলিজ পেজ](https://github.com/hostclube/atuscode/releases) অথবা [opencode.ai/download](https://opencode.ai/download) থেকে ডাউনলোড করুন।
+OpenCode à¦¡à§‡à¦¸à§à¦•à¦Ÿà¦ª à¦…à§à¦¯à¦¾à¦ªà§à¦²à¦¿à¦•à§‡à¦¶à¦¨ à¦¹à¦¿à¦¸à§‡à¦¬à§‡à¦“ à¦‰à¦ªà¦²à¦¬à§à¦§à¥¤ à¦¸à¦°à¦¾à¦¸à¦°à¦¿ [à¦°à¦¿à¦²à¦¿à¦œ à¦ªà§‡à¦œ](https://github.com/antonioan23/atuscode/releases) à¦…à¦¥à¦¬à¦¾ [opencode.ai/download](https://opencode.ai/download) à¦¥à§‡à¦•à§‡ à¦¡à¦¾à¦‰à¦¨à¦²à§‹à¦¡ à¦•à¦°à§à¦¨à¥¤
 
-| প্ল্যাটফর্ম           | ডাউনলোড                            |
+| à¦ªà§à¦²à§à¦¯à¦¾à¦Ÿà¦«à¦°à§à¦®           | à¦¡à¦¾à¦‰à¦¨à¦²à§‹à¦¡                            |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
@@ -82,48 +82,48 @@ brew install --cask opencode-desktop
 scoop bucket add extras; scoop install extras/opencode-desktop
 ```
 
-#### ইনস্টলেশন ডিরেক্টরি (Installation Directory)
+#### à¦‡à¦¨à¦¸à§à¦Ÿà¦²à§‡à¦¶à¦¨ à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ (Installation Directory)
 
-ইনস্টল স্ক্রিপ্টটি ইনস্টলেশন পাতের জন্য নিম্নলিখিত অগ্রাধিকার ক্রম মেনে চলে:
+à¦‡à¦¨à¦¸à§à¦Ÿà¦² à¦¸à§à¦•à§à¦°à¦¿à¦ªà§à¦Ÿà¦Ÿà¦¿ à¦‡à¦¨à¦¸à§à¦Ÿà¦²à§‡à¦¶à¦¨ à¦ªà¦¾à¦¤à§‡à¦° à¦œà¦¨à§à¦¯ à¦¨à¦¿à¦®à§à¦¨à¦²à¦¿à¦–à¦¿à¦¤ à¦…à¦—à§à¦°à¦¾à¦§à¦¿à¦•à¦¾à¦° à¦•à§à¦°à¦® à¦®à§‡à¦¨à§‡ à¦šà¦²à§‡:
 
-1. `$OPENCODE_INSTALL_DIR` - কাস্টম ইনস্টলেশন ডিরেক্টরি
-2. `$XDG_BIN_DIR` - XDG বেস ডিরেক্টরি স্পেসিফিকেশন সমর্থিত পাথ
-3. `$HOME/bin` - সাধারণ ব্যবহারকারী বাইনারি ডিরেক্টরি (যদি বিদ্যমান থাকে বা তৈরি করা যায়)
-4. `$HOME/.opencode/bin` - ডিফল্ট ফলব্যাক
+1. `$OPENCODE_INSTALL_DIR` - à¦•à¦¾à¦¸à§à¦Ÿà¦® à¦‡à¦¨à¦¸à§à¦Ÿà¦²à§‡à¦¶à¦¨ à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿
+2. `$XDG_BIN_DIR` - XDG à¦¬à§‡à¦¸ à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ à¦¸à§à¦ªà§‡à¦¸à¦¿à¦«à¦¿à¦•à§‡à¦¶à¦¨ à¦¸à¦®à¦°à§à¦¥à¦¿à¦¤ à¦ªà¦¾à¦¥
+3. `$HOME/bin` - à¦¸à¦¾à¦§à¦¾à¦°à¦£ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦¬à¦¾à¦‡à¦¨à¦¾à¦°à¦¿ à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ (à¦¯à¦¦à¦¿ à¦¬à¦¿à¦¦à§à¦¯à¦®à¦¾à¦¨ à¦¥à¦¾à¦•à§‡ à¦¬à¦¾ à¦¤à§ˆà¦°à¦¿ à¦•à¦°à¦¾ à¦¯à¦¾à§Ÿ)
+4. `$HOME/.opencode/bin` - à¦¡à¦¿à¦«à¦²à§à¦Ÿ à¦«à¦²à¦¬à§à¦¯à¦¾à¦•
 
 ```bash
-# উদাহরণ
+# à¦‰à¦¦à¦¾à¦¹à¦°à¦£
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 
-### এজেন্টস (Agents)
+### à¦à¦œà§‡à¦¨à§à¦Ÿà¦¸ (Agents)
 
-OpenCode এ দুটি বিল্ট-ইন এজেন্ট রয়েছে যা আপনি `Tab` কি(key) দিয়ে পরিবর্তন করতে পারবেন।
+OpenCode à¦ à¦¦à§à¦Ÿà¦¿ à¦¬à¦¿à¦²à§à¦Ÿ-à¦‡à¦¨ à¦à¦œà§‡à¦¨à§à¦Ÿ à¦°à¦¯à¦¼à§‡à¦›à§‡ à¦¯à¦¾ à¦†à¦ªà¦¨à¦¿ `Tab` à¦•à¦¿(key) à¦¦à¦¿à¦¯à¦¼à§‡ à¦ªà¦°à¦¿à¦¬à¦°à§à¦¤à¦¨ à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à¦¬à§‡à¦¨à¥¤
 
-- **build** - ডিফল্ট, ডেভেলপমেন্টের কাজের জন্য সম্পূর্ণ অ্যাক্সেসযুক্ত এজেন্ট
-- **plan** - বিশ্লেষণ এবং কোড এক্সপ্লোরেশনের জন্য রিড-ওনলি এজেন্ট
-  - ডিফল্টভাবে ফাইল এডিট করতে দেয় না
-  - ব্যাশ কমান্ড চালানোর আগে অনুমতি চায়
-  - অপরিচিত কোডবেস এক্সপ্লোর করা বা পরিবর্তনের পরিকল্পনা করার জন্য আদর্শ
+- **build** - à¦¡à¦¿à¦«à¦²à§à¦Ÿ, à¦¡à§‡à¦­à§‡à¦²à¦ªà¦®à§‡à¦¨à§à¦Ÿà§‡à¦° à¦•à¦¾à¦œà§‡à¦° à¦œà¦¨à§à¦¯ à¦¸à¦®à§à¦ªà§‚à¦°à§à¦£ à¦…à§à¦¯à¦¾à¦•à§à¦¸à§‡à¦¸à¦¯à§à¦•à§à¦¤ à¦à¦œà§‡à¦¨à§à¦Ÿ
+- **plan** - à¦¬à¦¿à¦¶à§à¦²à§‡à¦·à¦£ à¦à¦¬à¦‚ à¦•à§‹à¦¡ à¦à¦•à§à¦¸à¦ªà§à¦²à§‹à¦°à§‡à¦¶à¦¨à§‡à¦° à¦œà¦¨à§à¦¯ à¦°à¦¿à¦¡-à¦“à¦¨à¦²à¦¿ à¦à¦œà§‡à¦¨à§à¦Ÿ
+  - à¦¡à¦¿à¦«à¦²à§à¦Ÿà¦­à¦¾à¦¬à§‡ à¦«à¦¾à¦‡à¦² à¦à¦¡à¦¿à¦Ÿ à¦•à¦°à¦¤à§‡ à¦¦à§‡à¦¯à¦¼ à¦¨à¦¾
+  - à¦¬à§à¦¯à¦¾à¦¶ à¦•à¦®à¦¾à¦¨à§à¦¡ à¦šà¦¾à¦²à¦¾à¦¨à§‹à¦° à¦†à¦—à§‡ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦šà¦¾à§Ÿ
+  - à¦…à¦ªà¦°à¦¿à¦šà¦¿à¦¤ à¦•à§‹à¦¡à¦¬à§‡à¦¸ à¦à¦•à§à¦¸à¦ªà§à¦²à§‹à¦° à¦•à¦°à¦¾ à¦¬à¦¾ à¦ªà¦°à¦¿à¦¬à¦°à§à¦¤à¦¨à§‡à¦° à¦ªà¦°à¦¿à¦•à¦²à§à¦ªà¦¨à¦¾ à¦•à¦°à¦¾à¦° à¦œà¦¨à§à¦¯ à¦†à¦¦à¦°à§à¦¶
 
-এছাড়াও জটিল অনুসন্ধান এবং মাল্টিস্টেপ টাস্কের জন্য একটি **general** সাবএজেন্ট অন্তর্ভুক্ত রয়েছে।
-এটি অভ্যন্তরীণভাবে ব্যবহৃত হয় এবং মেসেজে `@general` লিখে ব্যবহার করা যেতে পারে।
+à¦à¦›à¦¾à§œà¦¾à¦“ à¦œà¦Ÿà¦¿à¦² à¦…à¦¨à§à¦¸à¦¨à§à¦§à¦¾à¦¨ à¦à¦¬à¦‚ à¦®à¦¾à¦²à§à¦Ÿà¦¿à¦¸à§à¦Ÿà§‡à¦ª à¦Ÿà¦¾à¦¸à§à¦•à§‡à¦° à¦œà¦¨à§à¦¯ à¦à¦•à¦Ÿà¦¿ **general** à¦¸à¦¾à¦¬à¦à¦œà§‡à¦¨à§à¦Ÿ à¦…à¦¨à§à¦¤à¦°à§à¦­à§à¦•à§à¦¤ à¦°à¦¯à¦¼à§‡à¦›à§‡à¥¤
+à¦à¦Ÿà¦¿ à¦…à¦­à§à¦¯à¦¨à§à¦¤à¦°à§€à¦£à¦­à¦¾à¦¬à§‡ à¦¬à§à¦¯à¦¬à¦¹à§ƒà¦¤ à¦¹à¦¯à¦¼ à¦à¦¬à¦‚ à¦®à§‡à¦¸à§‡à¦œà§‡ `@general` à¦²à¦¿à¦–à§‡ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦° à¦•à¦°à¦¾ à¦¯à§‡à¦¤à§‡ à¦ªà¦¾à¦°à§‡à¥¤
 
-এজেন্টদের সম্পর্কে আরও জানুন: [docs](https://opencode.ai/docs/agents)।
+à¦à¦œà§‡à¦¨à§à¦Ÿà¦¦à§‡à¦° à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡ à¦†à¦°à¦“ à¦œà¦¾à¦¨à§à¦¨: [docs](https://opencode.ai/docs/agents)à¥¤
 
-### ডকুমেন্টেশন (Documentation)
+### à¦¡à¦•à§à¦®à§‡à¦¨à§à¦Ÿà§‡à¦¶à¦¨ (Documentation)
 
-কিভাবে OpenCode কনফিগার করবেন সে সম্পর্কে আরও তথ্যের জন্য, [**আমাদের ডকস দেখুন**](https://opencode.ai/docs)।
+à¦•à¦¿à¦­à¦¾à¦¬à§‡ OpenCode à¦•à¦¨à¦«à¦¿à¦—à¦¾à¦° à¦•à¦°à¦¬à§‡à¦¨ à¦¸à§‡ à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡ à¦†à¦°à¦“ à¦¤à¦¥à§à¦¯à§‡à¦° à¦œà¦¨à§à¦¯, [**à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¡à¦•à¦¸ à¦¦à§‡à¦–à§à¦¨**](https://opencode.ai/docs)à¥¤
 
-### অবদান (Contributing)
+### à¦…à¦¬à¦¦à¦¾à¦¨ (Contributing)
 
-আপনি যদি OpenCode এ অবদান রাখতে চান, অনুগ্রহ করে একটি পুল রিকোয়েস্ট সাবমিট করার আগে আমাদের [কন্ট্রিবিউটিং ডকস](./CONTRIBUTING.md) পড়ে নিন।
+à¦†à¦ªà¦¨à¦¿ à¦¯à¦¦à¦¿ OpenCode à¦ à¦…à¦¬à¦¦à¦¾à¦¨ à¦°à¦¾à¦–à¦¤à§‡ à¦šà¦¾à¦¨, à¦…à¦¨à§à¦—à§à¦°à¦¹ à¦•à¦°à§‡ à¦à¦•à¦Ÿà¦¿ à¦ªà§à¦² à¦°à¦¿à¦•à§‹à¦¯à¦¼à§‡à¦¸à§à¦Ÿ à¦¸à¦¾à¦¬à¦®à¦¿à¦Ÿ à¦•à¦°à¦¾à¦° à¦†à¦—à§‡ à¦†à¦®à¦¾à¦¦à§‡à¦° [à¦•à¦¨à§à¦Ÿà§à¦°à¦¿à¦¬à¦¿à¦‰à¦Ÿà¦¿à¦‚ à¦¡à¦•à¦¸](./CONTRIBUTING.md) à¦ªà¦¡à¦¼à§‡ à¦¨à¦¿à¦¨à¥¤
 
-### OpenCode এর উপর বিল্ডিং (Building on OpenCode)
+### OpenCode à¦à¦° à¦‰à¦ªà¦° à¦¬à¦¿à¦²à§à¦¡à¦¿à¦‚ (Building on OpenCode)
 
-আপনি যদি এমন প্রজেক্টে কাজ করেন যা OpenCode এর সাথে সম্পর্কিত এবং প্রজেক্টের নামের অংশ হিসেবে "opencode" ব্যবহার করেন, উদাহরণস্বরূপ "opencode-dashboard" বা "opencode-mobile", তবে দয়া করে আপনার README তে একটি নোট যোগ করে স্পষ্ট করুন যে এই প্রজেক্টটি OpenCode দল দ্বারা তৈরি হয়নি এবং আমাদের সাথে এর কোনো সরাসরি সম্পর্ক নেই।
+à¦†à¦ªà¦¨à¦¿ à¦¯à¦¦à¦¿ à¦à¦®à¦¨ à¦ªà§à¦°à¦œà§‡à¦•à§à¦Ÿà§‡ à¦•à¦¾à¦œ à¦•à¦°à§‡à¦¨ à¦¯à¦¾ OpenCode à¦à¦° à¦¸à¦¾à¦¥à§‡ à¦¸à¦®à§à¦ªà¦°à§à¦•à¦¿à¦¤ à¦à¦¬à¦‚ à¦ªà§à¦°à¦œà§‡à¦•à§à¦Ÿà§‡à¦° à¦¨à¦¾à¦®à§‡à¦° à¦…à¦‚à¦¶ à¦¹à¦¿à¦¸à§‡à¦¬à§‡ "opencode" à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦° à¦•à¦°à§‡à¦¨, à¦‰à¦¦à¦¾à¦¹à¦°à¦£à¦¸à§à¦¬à¦°à§‚à¦ª "opencode-dashboard" à¦¬à¦¾ "opencode-mobile", à¦¤à¦¬à§‡ à¦¦à¦¯à¦¼à¦¾ à¦•à¦°à§‡ à¦†à¦ªà¦¨à¦¾à¦° README à¦¤à§‡ à¦à¦•à¦Ÿà¦¿ à¦¨à§‹à¦Ÿ à¦¯à§‹à¦— à¦•à¦°à§‡ à¦¸à§à¦ªà¦·à§à¦Ÿ à¦•à¦°à§à¦¨ à¦¯à§‡ à¦à¦‡ à¦ªà§à¦°à¦œà§‡à¦•à§à¦Ÿà¦Ÿà¦¿ OpenCode à¦¦à¦² à¦¦à§à¦¬à¦¾à¦°à¦¾ à¦¤à§ˆà¦°à¦¿ à¦¹à¦¯à¦¼à¦¨à¦¿ à¦à¦¬à¦‚ à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à¦¾à¦¥à§‡ à¦à¦° à¦•à§‹à¦¨à§‹ à¦¸à¦°à¦¾à¦¸à¦°à¦¿ à¦¸à¦®à§à¦ªà¦°à§à¦• à¦¨à§‡à¦‡à¥¤
 
 ---
 
-**আমাদের কমিউনিটিতে যুক্ত হোন** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+**à¦†à¦®à¦¾à¦¦à§‡à¦° à¦•à¦®à¦¿à¦‰à¦¨à¦¿à¦Ÿà¦¿à¦¤à§‡ à¦¯à§à¦•à§à¦¤ à¦¹à§‹à¦¨** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)

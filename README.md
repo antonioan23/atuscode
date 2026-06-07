@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/hostclube/atuscode">
+  <a href="https://github.com/antonioan23/atuscode">
     <picture>
       <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
       <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
@@ -10,41 +10,41 @@
 <p align="center">atus code - AI-powered development tool (fork of opencode).</p>
 <p align="center">
   <a href="https://www.npmjs.com/package/@hostclube/atuscode"><img alt="npm" src="https://img.shields.io/npm/v/@hostclube/atuscode?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">Ã§Â®â‚¬Ã¤Â½â€œÃ¤Â¸Â­Ã¦â€“â€¡</a> |
+  <a href="README.zht.md">Ã§Â¹ÂÃ©Â«â€Ã¤Â¸Â­Ã¦â€“â€¡</a> |
+  <a href="README.ko.md">Ã­â€¢Å“ÃªÂµÂ­Ã¬â€“Â´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃƒÂ±ol</a> |
+  <a href="README.fr.md">FranÃƒÂ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">Ã¦â€”Â¥Ã¦Å“Â¬Ã¨ÂªÅ¾</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">ÃÂ Ã‘Æ’Ã‘ÂÃ‘ÂÃÂºÃÂ¸ÃÂ¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ã˜Â§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃƒÂªs (Brasil)</a> |
+  <a href="README.th.md">Ã Â¹â€žÃ Â¸â€”Ã Â¸Â¢</a> |
+  <a href="README.tr.md">TÃƒÂ¼rkÃƒÂ§e</a> |
+  <a href="README.uk.md">ÃÂ£ÃÂºÃ‘â‚¬ÃÂ°Ã‘â€”ÃÂ½Ã‘ÂÃ‘Å’ÃÂºÃÂ°</a> |
+  <a href="README.bn.md">Ã Â¦Â¬Ã Â¦Â¾Ã Â¦â€šÃ Â¦Â²Ã Â¦Â¾</a> |
+  <a href="README.gr.md">ÃŽâ€¢ÃŽÂ»ÃŽÂ»ÃŽÂ·ÃŽÂ½ÃŽÂ¹ÃŽÂºÃŽÂ¬</a> |
+  <a href="README.vi.md">TiÃ¡ÂºÂ¿ng ViÃ¡Â»â€¡t</a>
 </p>
 
-[![atus code Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://github.com/hostclube/atuscode)
+[![atus code Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://github.com/antonioan23/atuscode)
 
 ---
 
 ### About this fork
 
-This is a fork of [opencode](https://github.com/hostclube/atuscode) maintained by hostclube under the **atus code** brand. Code, structure, and most features are inherited from upstream; only the package namespace, CLI binary, and outbound branding have been changed.
+This is a fork of [opencode](https://github.com/antonioan23/atuscode) maintained by hostclube under the **atus code** brand. Code, structure, and most features are inherited from upstream; only the package namespace, CLI binary, and outbound branding have been changed.
 
 ### Installation
 
@@ -56,7 +56,7 @@ bun add -g @hostclube/atuscode
 ```
 
 > [!TIP]
-> Once published, additional install channels (Homebrew tap, Scoop, Chocolatey, AUR) will be added at `hostclube/atuscode-tap` and friends.
+> Once published, additional install channels (Homebrew tap, Scoop, Chocolatey, AUR) will be added at `antonioan23/atuscode-tap` and friends.
 
 #### Installation Directory
 
@@ -98,4 +98,4 @@ If you are working on a project that's related to atus code and is using "atusco
 
 ---
 
-**Maintained by** [hostclube](https://github.com/hostclube) | Original by [hostclube/atuscode](https://github.com/hostclube/atuscode)
+**Maintained by** [hostclube](https://github.com/hostclube) | Original by [antonioan23/atuscode](https://github.com/antonioan23/atuscode)

@@ -7,36 +7,36 @@
     </picture>
   </a>
 </p>
-<p align="center">L’agente di coding AI open source.</p>
+<p align="center">Lâ€™agente di coding AI open source.</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
@@ -58,7 +58,7 @@ brew install opencode              # macOS e Linux (formula brew ufficiale, aggi
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
 mise use -g opencode               # Qualsiasi OS
-nix run nixpkgs#opencode           # oppure github:hostclube/atuscode per l’ultima branch di sviluppo
+nix run nixpkgs#opencode           # oppure github:antonioan23/atuscode per lâ€™ultima branch di sviluppo
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#opencode           # oppure github:hostclube/atuscode per l’ul
 
 ### App Desktop (BETA)
 
-OpenCode è disponibile anche come applicazione desktop. Puoi scaricarla direttamente dalla [pagina delle release](https://github.com/hostclube/atuscode/releases) oppure da [opencode.ai/download](https://opencode.ai/download).
+OpenCode Ã¨ disponibile anche come applicazione desktop. Puoi scaricarla direttamente dalla [pagina delle release](https://github.com/antonioan23/atuscode/releases) oppure da [opencode.ai/download](https://opencode.ai/download).
 
 | Piattaforma           | Download                           |
 | --------------------- | ---------------------------------- |
@@ -84,12 +84,12 @@ scoop bucket add extras; scoop install extras/opencode-desktop
 
 #### Directory di installazione
 
-Lo script di installazione rispetta il seguente ordine di priorità per il percorso di installazione:
+Lo script di installazione rispetta il seguente ordine di prioritÃ  per il percorso di installazione:
 
-1. `$OPENCODE_INSTALL_DIR` – Directory di installazione personalizzata
-2. `$XDG_BIN_DIR` – Percorso conforme alla XDG Base Directory Specification
-3. `$HOME/bin` – Directory binaria standard dell’utente (se esiste o può essere creata)
-4. `$HOME/.opencode/bin` – Fallback predefinito
+1. `$OPENCODE_INSTALL_DIR` â€“ Directory di installazione personalizzata
+2. `$XDG_BIN_DIR` â€“ Percorso conforme alla XDG Base Directory Specification
+3. `$HOME/bin` â€“ Directory binaria standard dellâ€™utente (se esiste o puÃ² essere creata)
+4. `$HOME/.opencode/bin` â€“ Fallback predefinito
 
 ```bash
 # Esempi
@@ -101,16 +101,16 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 
 OpenCode include due agenti integrati tra cui puoi passare usando il tasto `Tab`.
 
-- **build** – Predefinito, agente con accesso completo per il lavoro di sviluppo
-- **plan** – Agente in sola lettura per analisi ed esplorazione del codice
+- **build** â€“ Predefinito, agente con accesso completo per il lavoro di sviluppo
+- **plan** â€“ Agente in sola lettura per analisi ed esplorazione del codice
   - Nega le modifiche ai file per impostazione predefinita
   - Chiede il permesso prima di eseguire comandi bash
   - Ideale per esplorare codebase sconosciute o pianificare modifiche
 
-È inoltre incluso un sotto-agente **general** per ricerche complesse e attività multi-step.
-Viene utilizzato internamente e può essere invocato usando `@general` nei messaggi.
+Ãˆ inoltre incluso un sotto-agente **general** per ricerche complesse e attivitÃ  multi-step.
+Viene utilizzato internamente e puÃ² essere invocato usando `@general` nei messaggi.
 
-Scopri di più sugli [agenti](https://opencode.ai/docs/agents).
+Scopri di piÃ¹ sugli [agenti](https://opencode.ai/docs/agents).
 
 ### Documentazione
 
@@ -122,7 +122,7 @@ Se sei interessato a contribuire a OpenCode, leggi la nostra [guida alla contrib
 
 ### Costruire su OpenCode
 
-Se stai lavorando a un progetto correlato a OpenCode e che utilizza “opencode” come parte del nome (ad esempio “opencode-dashboard” o “opencode-mobile”), aggiungi una nota nel tuo README per chiarire che non è sviluppato dal team OpenCode e che non è affiliato in alcun modo con noi.
+Se stai lavorando a un progetto correlato a OpenCode e che utilizza â€œopencodeâ€ come parte del nome (ad esempio â€œopencode-dashboardâ€ o â€œopencode-mobileâ€), aggiungi una nota nel tuo README per chiarire che non Ã¨ sviluppato dal team OpenCode e che non Ã¨ affiliato in alcun modo con noi.
 
 ---
 

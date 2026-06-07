@@ -7,7 +7,7 @@ export const config = {
 
   // GitHub
   github: {
-    repoUrl: "https://github.com/hostclube/atuscode",
+    repoUrl: "https://github.com/antonioan23/atuscode",
     starsFormatted: {
       compact: "160K",
       full: "160,000",

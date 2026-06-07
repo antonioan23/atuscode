@@ -7,36 +7,36 @@
     </picture>
   </a>
 </p>
-<p align="center">Açık kaynaklı yapay zeka kodlama asistanı.</p>
+<p align="center">AÃ§Ä±k kaynaklÄ± yapay zeka kodlama asistanÄ±.</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
@@ -49,26 +49,26 @@
 # YOLO
 curl -fsSL https://opencode.ai/install | bash
 
-# Paket yöneticileri
+# Paket yÃ¶neticileri
 npm i -g opencode-ai@latest        # veya bun/pnpm/yarn
 scoop install opencode             # Windows
 choco install opencode             # Windows
-brew install anomalyco/tap/opencode # macOS ve Linux (önerilir, her zaman güncel)
-brew install opencode              # macOS ve Linux (resmi brew formülü, daha az güncellenir)
+brew install anomalyco/tap/opencode # macOS ve Linux (Ã¶nerilir, her zaman gÃ¼ncel)
+brew install opencode              # macOS ve Linux (resmi brew formÃ¼lÃ¼, daha az gÃ¼ncellenir)
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
-mise use -g opencode               # Tüm işletim sistemleri
-nix run nixpkgs#opencode           # veya en güncel geliştirme dalı için github:hostclube/atuscode
+mise use -g opencode               # TÃ¼m iÅŸletim sistemleri
+nix run nixpkgs#opencode           # veya en gÃ¼ncel geliÅŸtirme dalÄ± iÃ§in github:antonioan23/atuscode
 ```
 
 > [!TIP]
-> Kurulumdan önce 0.1.x'ten eski sürümleri kaldırın.
+> Kurulumdan Ã¶nce 0.1.x'ten eski sÃ¼rÃ¼mleri kaldÄ±rÄ±n.
 
-### Masaüstü Uygulaması (BETA)
+### MasaÃ¼stÃ¼ UygulamasÄ± (BETA)
 
-OpenCode ayrıca masaüstü uygulaması olarak da mevcuttur. Doğrudan [sürüm sayfasından](https://github.com/hostclube/atuscode/releases) veya [opencode.ai/download](https://opencode.ai/download) adresinden indirebilirsiniz.
+OpenCode ayrÄ±ca masaÃ¼stÃ¼ uygulamasÄ± olarak da mevcuttur. DoÄŸrudan [sÃ¼rÃ¼m sayfasÄ±ndan](https://github.com/antonioan23/atuscode/releases) veya [opencode.ai/download](https://opencode.ai/download) adresinden indirebilirsiniz.
 
-| Platform              | İndirme                            |
+| Platform              | Ä°ndirme                            |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
@@ -84,46 +84,46 @@ scoop bucket add extras; scoop install extras/opencode-desktop
 
 #### Kurulum Dizini (Installation Directory)
 
-Kurulum betiği (install script), kurulum yolu (installation path) için aşağıdaki öncelik sırasını takip eder:
+Kurulum betiÄŸi (install script), kurulum yolu (installation path) iÃ§in aÅŸaÄŸÄ±daki Ã¶ncelik sÄ±rasÄ±nÄ± takip eder:
 
-1. `$OPENCODE_INSTALL_DIR` - Özel kurulum dizini
+1. `$OPENCODE_INSTALL_DIR` - Ã–zel kurulum dizini
 2. `$XDG_BIN_DIR` - XDG Base Directory Specification uyumlu yol
-3. `$HOME/bin` - Standart kullanıcı binary dizini (varsa veya oluşturulabiliyorsa)
-4. `$HOME/.opencode/bin` - Varsayılan yedek konum
+3. `$HOME/bin` - Standart kullanÄ±cÄ± binary dizini (varsa veya oluÅŸturulabiliyorsa)
+4. `$HOME/.opencode/bin` - VarsayÄ±lan yedek konum
 
 ```bash
-# Örnekler
+# Ã–rnekler
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 
 ### Ajanlar
 
-OpenCode, `Tab` tuşuyla aralarında geçiş yapabileceğiniz iki yerleşik (built-in) ajan içerir.
+OpenCode, `Tab` tuÅŸuyla aralarÄ±nda geÃ§iÅŸ yapabileceÄŸiniz iki yerleÅŸik (built-in) ajan iÃ§erir.
 
-- **build** - Varsayılan, geliştirme çalışmaları için tam erişimli ajan
-- **plan** - Analiz ve kod keşfi için salt okunur ajan
-  - Varsayılan olarak dosya düzenlemelerini reddeder
-  - Bash komutlarını çalıştırmadan önce izin ister
-  - Tanımadığınız kod tabanlarını keşfetmek veya değişiklikleri planlamak için ideal
+- **build** - VarsayÄ±lan, geliÅŸtirme Ã§alÄ±ÅŸmalarÄ± iÃ§in tam eriÅŸimli ajan
+- **plan** - Analiz ve kod keÅŸfi iÃ§in salt okunur ajan
+  - VarsayÄ±lan olarak dosya dÃ¼zenlemelerini reddeder
+  - Bash komutlarÄ±nÄ± Ã§alÄ±ÅŸtÄ±rmadan Ã¶nce izin ister
+  - TanÄ±madÄ±ÄŸÄ±nÄ±z kod tabanlarÄ±nÄ± keÅŸfetmek veya deÄŸiÅŸiklikleri planlamak iÃ§in ideal
 
-Ayrıca, karmaşık aramalar ve çok adımlı görevler için bir **genel** alt ajan bulunmaktadır.
-Bu dahili olarak kullanılır ve mesajlarda `@general` ile çağrılabilir.
+AyrÄ±ca, karmaÅŸÄ±k aramalar ve Ã§ok adÄ±mlÄ± gÃ¶revler iÃ§in bir **genel** alt ajan bulunmaktadÄ±r.
+Bu dahili olarak kullanÄ±lÄ±r ve mesajlarda `@general` ile Ã§aÄŸrÄ±labilir.
 
-[Ajanlar](https://opencode.ai/docs/agents) hakkında daha fazla bilgi edinin.
+[Ajanlar](https://opencode.ai/docs/agents) hakkÄ±nda daha fazla bilgi edinin.
 
-### Dokümantasyon
+### DokÃ¼mantasyon
 
-OpenCode'u nasıl yapılandıracağınız hakkında daha fazla bilgi için [**dokümantasyonumuza göz atın**](https://opencode.ai/docs).
+OpenCode'u nasÄ±l yapÄ±landÄ±racaÄŸÄ±nÄ±z hakkÄ±nda daha fazla bilgi iÃ§in [**dokÃ¼mantasyonumuza gÃ¶z atÄ±n**](https://opencode.ai/docs).
 
-### Katkıda Bulunma
+### KatkÄ±da Bulunma
 
-OpenCode'a katkıda bulunmak istiyorsanız, lütfen bir pull request göndermeden önce [katkıda bulunma dokümanlarımızı](./CONTRIBUTING.md) okuyun.
+OpenCode'a katkÄ±da bulunmak istiyorsanÄ±z, lÃ¼tfen bir pull request gÃ¶ndermeden Ã¶nce [katkÄ±da bulunma dokÃ¼manlarÄ±mÄ±zÄ±](./CONTRIBUTING.md) okuyun.
 
-### OpenCode Üzerine Geliştirme
+### OpenCode Ãœzerine GeliÅŸtirme
 
-OpenCode ile ilgili bir proje üzerinde çalışıyorsanız ve projenizin adının bir parçası olarak "opencode" kullanıyorsanız (örneğin, "opencode-dashboard" veya "opencode-mobile"), lütfen README dosyanıza projenin OpenCode ekibi tarafından geliştirilmediğini ve bizimle hiçbir şekilde bağlantılı olmadığını belirten bir not ekleyin.
+OpenCode ile ilgili bir proje Ã¼zerinde Ã§alÄ±ÅŸÄ±yorsanÄ±z ve projenizin adÄ±nÄ±n bir parÃ§asÄ± olarak "opencode" kullanÄ±yorsanÄ±z (Ã¶rneÄŸin, "opencode-dashboard" veya "opencode-mobile"), lÃ¼tfen README dosyanÄ±za projenin OpenCode ekibi tarafÄ±ndan geliÅŸtirilmediÄŸini ve bizimle hiÃ§bir ÅŸekilde baÄŸlantÄ±lÄ± olmadÄ±ÄŸÄ±nÄ± belirten bir not ekleyin.
 
 ---
 
-**Topluluğumuza katılın** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+**TopluluÄŸumuza katÄ±lÄ±n** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)

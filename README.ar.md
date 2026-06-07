@@ -3,77 +3,77 @@
     <picture>
       <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
       <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="شعار OpenCode">
+      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="Ø´Ø¹Ø§Ø± OpenCode">
     </picture>
   </a>
 </p>
-<p align="center">وكيل برمجة بالذكاء الاصطناعي مفتوح المصدر.</p>
+<p align="center">ÙˆÙƒÙŠÙ„ Ø¨Ø±Ù…Ø¬Ø© Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ù…ÙØªÙˆØ­ Ø§Ù„Ù…ØµØ¯Ø±.</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
 
 ---
 
-### التثبيت
+### Ø§Ù„ØªØ«Ø¨ÙŠØª
 
 ```bash
 # YOLO
 curl -fsSL https://opencode.ai/install | bash
 
-# مديري الحزم
-npm i -g opencode-ai@latest        # او bun/pnpm/yarn
+# Ù…Ø¯ÙŠØ±ÙŠ Ø§Ù„Ø­Ø²Ù…
+npm i -g opencode-ai@latest        # Ø§Ùˆ bun/pnpm/yarn
 scoop install opencode             # Windows
 choco install opencode             # Windows
-brew install anomalyco/tap/opencode # macOS و Linux (موصى به، دائما محدث)
-brew install opencode              # macOS و Linux (صيغة brew الرسمية، تحديث اقل)
+brew install anomalyco/tap/opencode # macOS Ùˆ Linux (Ù…ÙˆØµÙ‰ Ø¨Ù‡ØŒ Ø¯Ø§Ø¦Ù…Ø§ Ù…Ø­Ø¯Ø«)
+brew install opencode              # macOS Ùˆ Linux (ØµÙŠØºØ© brew Ø§Ù„Ø±Ø³Ù…ÙŠØ©ØŒ ØªØ­Ø¯ÙŠØ« Ø§Ù‚Ù„)
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
-mise use -g opencode               # اي نظام
-nix run nixpkgs#opencode           # او github:hostclube/atuscode لاحدث فرع dev
+mise use -g opencode               # Ø§ÙŠ Ù†Ø¸Ø§Ù…
+nix run nixpkgs#opencode           # Ø§Ùˆ github:antonioan23/atuscode Ù„Ø§Ø­Ø¯Ø« ÙØ±Ø¹ dev
 ```
 
 > [!TIP]
-> احذف الاصدارات الاقدم من 0.1.x قبل التثبيت.
+> Ø§Ø­Ø°Ù Ø§Ù„Ø§ØµØ¯Ø§Ø±Ø§Øª Ø§Ù„Ø§Ù‚Ø¯Ù… Ù…Ù† 0.1.x Ù‚Ø¨Ù„ Ø§Ù„ØªØ«Ø¨ÙŠØª.
 
-### تطبيق سطح المكتب (BETA)
+### ØªØ·Ø¨ÙŠÙ‚ Ø³Ø·Ø­ Ø§Ù„Ù…ÙƒØªØ¨ (BETA)
 
-يتوفر OpenCode ايضا كتطبيق سطح مكتب. قم بالتنزيل مباشرة من [صفحة الاصدارات](https://github.com/hostclube/atuscode/releases) او من [opencode.ai/download](https://opencode.ai/download).
+ÙŠØªÙˆÙØ± OpenCode Ø§ÙŠØ¶Ø§ ÙƒØªØ·Ø¨ÙŠÙ‚ Ø³Ø·Ø­ Ù…ÙƒØªØ¨. Ù‚Ù… Ø¨Ø§Ù„ØªÙ†Ø²ÙŠÙ„ Ù…Ø¨Ø§Ø´Ø±Ø© Ù…Ù† [ØµÙØ­Ø© Ø§Ù„Ø§ØµØ¯Ø§Ø±Ø§Øª](https://github.com/antonioan23/atuscode/releases) Ø§Ùˆ Ù…Ù† [opencode.ai/download](https://opencode.ai/download).
 
-| المنصة                | التنزيل                            |
+| Ø§Ù„Ù…Ù†ØµØ©                | Ø§Ù„ØªÙ†Ø²ÙŠÙ„                            |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
 | Windows               | `opencode-desktop-windows-x64.exe` |
-| Linux                 | `.deb` او `.rpm` او AppImage       |
+| Linux                 | `.deb` Ø§Ùˆ `.rpm` Ø§Ùˆ AppImage       |
 
 ```bash
 # macOS (Homebrew)
@@ -82,48 +82,48 @@ brew install --cask opencode-desktop
 scoop bucket add extras; scoop install extras/opencode-desktop
 ```
 
-#### مجلد التثبيت
+#### Ù…Ø¬Ù„Ø¯ Ø§Ù„ØªØ«Ø¨ÙŠØª
 
-يحترم سكربت التثبيت ترتيب الاولوية التالي لمسار التثبيت:
+ÙŠØ­ØªØ±Ù… Ø³ÙƒØ±Ø¨Øª Ø§Ù„ØªØ«Ø¨ÙŠØª ØªØ±ØªÙŠØ¨ Ø§Ù„Ø§ÙˆÙ„ÙˆÙŠØ© Ø§Ù„ØªØ§Ù„ÙŠ Ù„Ù…Ø³Ø§Ø± Ø§Ù„ØªØ«Ø¨ÙŠØª:
 
-1. `$OPENCODE_INSTALL_DIR` - مجلد تثبيت مخصص
-2. `$XDG_BIN_DIR` - مسار متوافق مع مواصفات XDG Base Directory
-3. `$HOME/bin` - مجلد الثنائيات القياسي للمستخدم (ان وجد او امكن انشاؤه)
-4. `$HOME/.opencode/bin` - المسار الافتراضي الاحتياطي
+1. `$OPENCODE_INSTALL_DIR` - Ù…Ø¬Ù„Ø¯ ØªØ«Ø¨ÙŠØª Ù…Ø®ØµØµ
+2. `$XDG_BIN_DIR` - Ù…Ø³Ø§Ø± Ù…ØªÙˆØ§ÙÙ‚ Ù…Ø¹ Ù…ÙˆØ§ØµÙØ§Øª XDG Base Directory
+3. `$HOME/bin` - Ù…Ø¬Ù„Ø¯ Ø§Ù„Ø«Ù†Ø§Ø¦ÙŠØ§Øª Ø§Ù„Ù‚ÙŠØ§Ø³ÙŠ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù… (Ø§Ù† ÙˆØ¬Ø¯ Ø§Ùˆ Ø§Ù…ÙƒÙ† Ø§Ù†Ø´Ø§Ø¤Ù‡)
+4. `$HOME/.opencode/bin` - Ø§Ù„Ù…Ø³Ø§Ø± Ø§Ù„Ø§ÙØªØ±Ø§Ø¶ÙŠ Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ
 
 ```bash
-# امثلة
+# Ø§Ù…Ø«Ù„Ø©
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 
 ### Agents
 
-يتضمن OpenCode وكيليْن (Agents) مدمجين يمكنك التبديل بينهما باستخدام زر `Tab`.
+ÙŠØªØ¶Ù…Ù† OpenCode ÙˆÙƒÙŠÙ„ÙŠÙ’Ù† (Agents) Ù…Ø¯Ù…Ø¬ÙŠÙ† ÙŠÙ…ÙƒÙ†Ùƒ Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ Ø¨ÙŠÙ†Ù‡Ù…Ø§ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø²Ø± `Tab`.
 
-- **build** - الافتراضي، وكيل بصلاحيات كاملة لاعمال التطوير
-- **plan** - وكيل للقراءة فقط للتحليل واستكشاف الكود
-  - يرفض تعديل الملفات افتراضيا
-  - يطلب الاذن قبل تشغيل اوامر bash
-  - مثالي لاستكشاف قواعد كود غير مألوفة او لتخطيط التغييرات
+- **build** - Ø§Ù„Ø§ÙØªØ±Ø§Ø¶ÙŠØŒ ÙˆÙƒÙŠÙ„ Ø¨ØµÙ„Ø§Ø­ÙŠØ§Øª ÙƒØ§Ù…Ù„Ø© Ù„Ø§Ø¹Ù…Ø§Ù„ Ø§Ù„ØªØ·ÙˆÙŠØ±
+- **plan** - ÙˆÙƒÙŠÙ„ Ù„Ù„Ù‚Ø±Ø§Ø¡Ø© ÙÙ‚Ø· Ù„Ù„ØªØ­Ù„ÙŠÙ„ ÙˆØ§Ø³ØªÙƒØ´Ø§Ù Ø§Ù„ÙƒÙˆØ¯
+  - ÙŠØ±ÙØ¶ ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ù…Ù„ÙØ§Øª Ø§ÙØªØ±Ø§Ø¶ÙŠØ§
+  - ÙŠØ·Ù„Ø¨ Ø§Ù„Ø§Ø°Ù† Ù‚Ø¨Ù„ ØªØ´ØºÙŠÙ„ Ø§ÙˆØ§Ù…Ø± bash
+  - Ù…Ø«Ø§Ù„ÙŠ Ù„Ø§Ø³ØªÙƒØ´Ø§Ù Ù‚ÙˆØ§Ø¹Ø¯ ÙƒÙˆØ¯ ØºÙŠØ± Ù…Ø£Ù„ÙˆÙØ© Ø§Ùˆ Ù„ØªØ®Ø·ÙŠØ· Ø§Ù„ØªØºÙŠÙŠØ±Ø§Øª
 
-بالاضافة الى ذلك يوجد وكيل فرعي **general** للبحث المعقد والمهام متعددة الخطوات.
-يستخدم داخليا ويمكن استدعاؤه بكتابة `@general` في الرسائل.
+Ø¨Ø§Ù„Ø§Ø¶Ø§ÙØ© Ø§Ù„Ù‰ Ø°Ù„Ùƒ ÙŠÙˆØ¬Ø¯ ÙˆÙƒÙŠÙ„ ÙØ±Ø¹ÙŠ **general** Ù„Ù„Ø¨Ø­Ø« Ø§Ù„Ù…Ø¹Ù‚Ø¯ ÙˆØ§Ù„Ù…Ù‡Ø§Ù… Ù…ØªØ¹Ø¯Ø¯Ø© Ø§Ù„Ø®Ø·ÙˆØ§Øª.
+ÙŠØ³ØªØ®Ø¯Ù… Ø¯Ø§Ø®Ù„ÙŠØ§ ÙˆÙŠÙ…ÙƒÙ† Ø§Ø³ØªØ¯Ø¹Ø§Ø¤Ù‡ Ø¨ÙƒØªØ§Ø¨Ø© `@general` ÙÙŠ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„.
 
-تعرف على المزيد حول [agents](https://opencode.ai/docs/agents).
+ØªØ¹Ø±Ù Ø¹Ù„Ù‰ Ø§Ù„Ù…Ø²ÙŠØ¯ Ø­ÙˆÙ„ [agents](https://opencode.ai/docs/agents).
 
-### التوثيق
+### Ø§Ù„ØªÙˆØ«ÙŠÙ‚
 
-لمزيد من المعلومات حول كيفية ضبط OpenCode، [**راجع التوثيق**](https://opencode.ai/docs).
+Ù„Ù…Ø²ÙŠØ¯ Ù…Ù† Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø­ÙˆÙ„ ÙƒÙŠÙÙŠØ© Ø¶Ø¨Ø· OpenCodeØŒ [**Ø±Ø§Ø¬Ø¹ Ø§Ù„ØªÙˆØ«ÙŠÙ‚**](https://opencode.ai/docs).
 
-### المساهمة
+### Ø§Ù„Ù…Ø³Ø§Ù‡Ù…Ø©
 
-اذا كنت مهتما بالمساهمة في OpenCode، يرجى قراءة [contributing docs](./CONTRIBUTING.md) قبل ارسال pull request.
+Ø§Ø°Ø§ ÙƒÙ†Øª Ù…Ù‡ØªÙ…Ø§ Ø¨Ø§Ù„Ù…Ø³Ø§Ù‡Ù…Ø© ÙÙŠ OpenCodeØŒ ÙŠØ±Ø¬Ù‰ Ù‚Ø±Ø§Ø¡Ø© [contributing docs](./CONTRIBUTING.md) Ù‚Ø¨Ù„ Ø§Ø±Ø³Ø§Ù„ pull request.
 
-### البناء فوق OpenCode
+### Ø§Ù„Ø¨Ù†Ø§Ø¡ ÙÙˆÙ‚ OpenCode
 
-اذا كنت تعمل على مشروع مرتبط بـ OpenCode ويستخدم "opencode" كجزء من اسمه (مثل "opencode-dashboard" او "opencode-mobile")، يرجى اضافة ملاحظة في README توضح انه ليس مبنيا بواسطة فريق OpenCode ولا يرتبط بنا بأي شكل.
+Ø§Ø°Ø§ ÙƒÙ†Øª ØªØ¹Ù…Ù„ Ø¹Ù„Ù‰ Ù…Ø´Ø±ÙˆØ¹ Ù…Ø±ØªØ¨Ø· Ø¨Ù€ OpenCode ÙˆÙŠØ³ØªØ®Ø¯Ù… "opencode" ÙƒØ¬Ø²Ø¡ Ù…Ù† Ø§Ø³Ù…Ù‡ (Ù…Ø«Ù„ "opencode-dashboard" Ø§Ùˆ "opencode-mobile")ØŒ ÙŠØ±Ø¬Ù‰ Ø§Ø¶Ø§ÙØ© Ù…Ù„Ø§Ø­Ø¸Ø© ÙÙŠ README ØªÙˆØ¶Ø­ Ø§Ù†Ù‡ Ù„ÙŠØ³ Ù…Ø¨Ù†ÙŠØ§ Ø¨ÙˆØ§Ø³Ø·Ø© ÙØ±ÙŠÙ‚ OpenCode ÙˆÙ„Ø§ ÙŠØ±ØªØ¨Ø· Ø¨Ù†Ø§ Ø¨Ø£ÙŠ Ø´ÙƒÙ„.
 
 ---
 
-**انضم الى مجتمعنا** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+**Ø§Ù†Ø¶Ù… Ø§Ù„Ù‰ Ù…Ø¬ØªÙ…Ø¹Ù†Ø§** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)

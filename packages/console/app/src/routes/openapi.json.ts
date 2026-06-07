@@ -1,6 +1,6 @@
 export async function GET() {
   const response = await fetch(
-    "https://raw.githubusercontent.com/hostclube/atuscode/refs/heads/dev/packages/sdk/openapi.json",
+    "https://raw.githubusercontent.com/antonioan23/atuscode/refs/heads/dev/packages/sdk/openapi.json",
   )
   const json = await response.json()
   return json

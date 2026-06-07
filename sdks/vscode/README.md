@@ -15,7 +15,7 @@ This extension requires the [opencode CLI](https://opencode.ai) to be installed 
 
 ## Support
 
-This is an early release. If you encounter issues or have feedback, please create an issue at https://github.com/hostclube/atuscode/issues.
+This is an early release. If you encounter issues or have feedback, please create an issue at https://github.com/antonioan23/atuscode/issues.
 
 ## Development
 

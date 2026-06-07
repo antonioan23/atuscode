@@ -7,73 +7,73 @@
     </picture>
   </a>
 </p>
-<p align="center">เอเจนต์การเขียนโค้ดด้วย AI แบบโอเพนซอร์ส</p>
+<p align="center">à¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œà¸à¸²à¸£à¹€à¸‚à¸µà¸¢à¸™à¹‚à¸„à¹‰à¸”à¸”à¹‰à¸§à¸¢ AI à¹à¸šà¸šà¹‚à¸­à¹€à¸žà¸™à¸‹à¸­à¸£à¹Œà¸ª</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/hostclube/atuscode/actions/workflows/publish.yml"><img alt="สถานะการสร้าง" src="https://img.shields.io/github/actions/workflow/status/hostclube/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/antonioan23/atuscode/actions/workflows/publish.yml"><img alt="à¸ªà¸–à¸²à¸™à¸°à¸à¸²à¸£à¸ªà¸£à¹‰à¸²à¸‡" src="https://img.shields.io/github/actions/workflow/status/antonioan23/atuscode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.zh.md">ç®€ä½“ä¸­æ–‡</a> |
+  <a href="README.zht.md">ç¹é«”ä¸­æ–‡</a> |
+  <a href="README.ko.md">í•œêµ­ì–´</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
+  <a href="README.es.md">EspaÃ±ol</a> |
+  <a href="README.fr.md">FranÃ§ais</a> |
   <a href="README.it.md">Italiano</a> |
   <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md">æ—¥æœ¬èªž</a> |
   <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md">Ð ÑƒÑÑÐºÐ¸Ð¹</a> |
   <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
+  <a href="README.ar.md">Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</a> |
   <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <a href="README.br.md">PortuguÃªs (Brasil)</a> |
+  <a href="README.th.md">à¹„à¸—à¸¢</a> |
+  <a href="README.tr.md">TÃ¼rkÃ§e</a> |
+  <a href="README.uk.md">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a> |
+  <a href="README.bn.md">à¦¬à¦¾à¦‚à¦²à¦¾</a> |
+  <a href="README.gr.md">Î•Î»Î»Î·Î½Î¹ÎºÎ¬</a> |
+  <a href="README.vi.md">Tiáº¿ng Viá»‡t</a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
 
 ---
 
-### การติดตั้ง
+### à¸à¸²à¸£à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡
 
 ```bash
 # YOLO
 curl -fsSL https://opencode.ai/install | bash
 
-# ตัวจัดการแพ็กเกจ
-npm i -g opencode-ai@latest        # หรือ bun/pnpm/yarn
+# à¸•à¸±à¸§à¸ˆà¸±à¸”à¸à¸²à¸£à¹à¸žà¹‡à¸à¹€à¸à¸ˆ
+npm i -g opencode-ai@latest        # à¸«à¸£à¸·à¸­ bun/pnpm/yarn
 scoop install opencode             # Windows
 choco install opencode             # Windows
-brew install anomalyco/tap/opencode # macOS และ Linux (แนะนำ อัปเดตเสมอ)
-brew install opencode              # macOS และ Linux (brew formula อย่างเป็นทางการ อัปเดตน้อยกว่า)
+brew install anomalyco/tap/opencode # macOS à¹à¸¥à¸° Linux (à¹à¸™à¸°à¸™à¸³ à¸­à¸±à¸›à¹€à¸”à¸•à¹€à¸ªà¸¡à¸­)
+brew install opencode              # macOS à¹à¸¥à¸° Linux (brew formula à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸›à¹‡à¸™à¸—à¸²à¸‡à¸à¸²à¸£ à¸­à¸±à¸›à¹€à¸”à¸•à¸™à¹‰à¸­à¸¢à¸à¸§à¹ˆà¸²)
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-bin               # Arch Linux (Latest from AUR)
-mise use -g opencode               # ระบบปฏิบัติการใดก็ได้
-nix run nixpkgs#opencode           # หรือ github:hostclube/atuscode สำหรับสาขาพัฒนาล่าสุด
+mise use -g opencode               # à¸£à¸°à¸šà¸šà¸›à¸à¸´à¸šà¸±à¸•à¸´à¸à¸²à¸£à¹ƒà¸”à¸à¹‡à¹„à¸”à¹‰
+nix run nixpkgs#opencode           # à¸«à¸£à¸·à¸­ github:antonioan23/atuscode à¸ªà¸³à¸«à¸£à¸±à¸šà¸ªà¸²à¸‚à¸²à¸žà¸±à¸’à¸™à¸²à¸¥à¹ˆà¸²à¸ªà¸¸à¸”
 ```
 
 > [!TIP]
-> ลบเวอร์ชันที่เก่ากว่า 0.1.x ก่อนติดตั้ง
+> à¸¥à¸šà¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¸™à¸—à¸µà¹ˆà¹€à¸à¹ˆà¸²à¸à¸§à¹ˆà¸² 0.1.x à¸à¹ˆà¸­à¸™à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡
 
-### แอปพลิเคชันเดสก์ท็อป (เบต้า)
+### à¹à¸­à¸›à¸žà¸¥à¸´à¹€à¸„à¸Šà¸±à¸™à¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸› (à¹€à¸šà¸•à¹‰à¸²)
 
-OpenCode มีให้ใช้งานเป็นแอปพลิเคชันเดสก์ท็อป ดาวน์โหลดโดยตรงจาก [หน้ารุ่น](https://github.com/hostclube/atuscode/releases) หรือ [opencode.ai/download](https://opencode.ai/download)
+OpenCode à¸¡à¸µà¹ƒà¸«à¹‰à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸›à¹‡à¸™à¹à¸­à¸›à¸žà¸¥à¸´à¹€à¸„à¸Šà¸±à¸™à¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸› à¸”à¸²à¸§à¸™à¹Œà¹‚à¸«à¸¥à¸”à¹‚à¸”à¸¢à¸•à¸£à¸‡à¸ˆà¸²à¸ [à¸«à¸™à¹‰à¸²à¸£à¸¸à¹ˆà¸™](https://github.com/antonioan23/atuscode/releases) à¸«à¸£à¸·à¸­ [opencode.ai/download](https://opencode.ai/download)
 
-| แพลตฟอร์ม             | ดาวน์โหลด                          |
+| à¹à¸žà¸¥à¸•à¸Ÿà¸­à¸£à¹Œà¸¡             | à¸”à¸²à¸§à¸™à¹Œà¹‚à¸«à¸¥à¸”                          |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
 | Windows               | `opencode-desktop-windows-x64.exe` |
-| Linux                 | `.deb`, `.rpm`, หรือ AppImage      |
+| Linux                 | `.deb`, `.rpm`, à¸«à¸£à¸·à¸­ AppImage      |
 
 ```bash
 # macOS (Homebrew)
@@ -82,48 +82,48 @@ brew install --cask opencode-desktop
 scoop bucket add extras; scoop install extras/opencode-desktop
 ```
 
-#### ไดเรกทอรีการติดตั้ง
+#### à¹„à¸”à¹€à¸£à¸à¸—à¸­à¸£à¸µà¸à¸²à¸£à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡
 
-สคริปต์การติดตั้งจะใช้ลำดับความสำคัญตามเส้นทางการติดตั้ง:
+à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¸à¸²à¸£à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡à¸ˆà¸°à¹ƒà¸Šà¹‰à¸¥à¸³à¸”à¸±à¸šà¸„à¸§à¸²à¸¡à¸ªà¸³à¸„à¸±à¸à¸•à¸²à¸¡à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸à¸²à¸£à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡:
 
-1. `$OPENCODE_INSTALL_DIR` - ไดเรกทอรีการติดตั้งที่กำหนดเอง
-2. `$XDG_BIN_DIR` - เส้นทางที่สอดคล้องกับ XDG Base Directory Specification
-3. `$HOME/bin` - ไดเรกทอรีไบนารีผู้ใช้มาตรฐาน (หากมีอยู่หรือสามารถสร้างได้)
-4. `$HOME/.opencode/bin` - ค่าสำรองเริ่มต้น
+1. `$OPENCODE_INSTALL_DIR` - à¹„à¸”à¹€à¸£à¸à¸—à¸­à¸£à¸µà¸à¸²à¸£à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡à¸—à¸µà¹ˆà¸à¸³à¸«à¸™à¸”à¹€à¸­à¸‡
+2. `$XDG_BIN_DIR` - à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸—à¸µà¹ˆà¸ªà¸­à¸”à¸„à¸¥à¹‰à¸­à¸‡à¸à¸±à¸š XDG Base Directory Specification
+3. `$HOME/bin` - à¹„à¸”à¹€à¸£à¸à¸—à¸­à¸£à¸µà¹„à¸šà¸™à¸²à¸£à¸µà¸œà¸¹à¹‰à¹ƒà¸Šà¹‰à¸¡à¸²à¸•à¸£à¸à¸²à¸™ (à¸«à¸²à¸à¸¡à¸µà¸­à¸¢à¸¹à¹ˆà¸«à¸£à¸·à¸­à¸ªà¸²à¸¡à¸²à¸£à¸–à¸ªà¸£à¹‰à¸²à¸‡à¹„à¸”à¹‰)
+4. `$HOME/.opencode/bin` - à¸„à¹ˆà¸²à¸ªà¸³à¸£à¸­à¸‡à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™
 
 ```bash
-# ตัวอย่าง
+# à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 
-### เอเจนต์
+### à¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œ
 
-OpenCode รวมเอเจนต์ในตัวสองตัวที่คุณสามารถสลับได้ด้วยปุ่ม `Tab`
+OpenCode à¸£à¸§à¸¡à¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œà¹ƒà¸™à¸•à¸±à¸§à¸ªà¸­à¸‡à¸•à¸±à¸§à¸—à¸µà¹ˆà¸„à¸¸à¸“à¸ªà¸²à¸¡à¸²à¸£à¸–à¸ªà¸¥à¸±à¸šà¹„à¸”à¹‰à¸”à¹‰à¸§à¸¢à¸›à¸¸à¹ˆà¸¡ `Tab`
 
-- **build** - เอเจนต์เริ่มต้น มีสิทธิ์เข้าถึงแบบเต็มสำหรับงานพัฒนา
-- **plan** - เอเจนต์อ่านอย่างเดียวสำหรับการวิเคราะห์และการสำรวจโค้ด
-  - ปฏิเสธการแก้ไขไฟล์โดยค่าเริ่มต้น
-  - ขอสิทธิ์ก่อนเรียกใช้คำสั่ง bash
-  - เหมาะสำหรับสำรวจโค้ดเบสที่ไม่คุ้นเคยหรือวางแผนการเปลี่ยนแปลง
+- **build** - à¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œà¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™ à¸¡à¸µà¸ªà¸´à¸—à¸˜à¸´à¹Œà¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¹à¸šà¸šà¹€à¸•à¹‡à¸¡à¸ªà¸³à¸«à¸£à¸±à¸šà¸‡à¸²à¸™à¸žà¸±à¸’à¸™à¸²
+- **plan** - à¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œà¸­à¹ˆà¸²à¸™à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸”à¸µà¸¢à¸§à¸ªà¸³à¸«à¸£à¸±à¸šà¸à¸²à¸£à¸§à¸´à¹€à¸„à¸£à¸²à¸°à¸«à¹Œà¹à¸¥à¸°à¸à¸²à¸£à¸ªà¸³à¸£à¸§à¸ˆà¹‚à¸„à¹‰à¸”
+  - à¸›à¸à¸´à¹€à¸ªà¸˜à¸à¸²à¸£à¹à¸à¹‰à¹„à¸‚à¹„à¸Ÿà¸¥à¹Œà¹‚à¸”à¸¢à¸„à¹ˆà¸²à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™
+  - à¸‚à¸­à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸à¹ˆà¸­à¸™à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰à¸„à¸³à¸ªà¸±à¹ˆà¸‡ bash
+  - à¹€à¸«à¸¡à¸²à¸°à¸ªà¸³à¸«à¸£à¸±à¸šà¸ªà¸³à¸£à¸§à¸ˆà¹‚à¸„à¹‰à¸”à¹€à¸šà¸ªà¸—à¸µà¹ˆà¹„à¸¡à¹ˆà¸„à¸¸à¹‰à¸™à¹€à¸„à¸¢à¸«à¸£à¸·à¸­à¸§à¸²à¸‡à¹à¸œà¸™à¸à¸²à¸£à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¹à¸›à¸¥à¸‡
 
-นอกจากนี้ยังมีเอเจนต์ย่อย **general** สำหรับการค้นหาที่ซับซ้อนและงานหลายขั้นตอน
-ใช้ภายในและสามารถเรียกใช้ได้โดยใช้ `@general` ในข้อความ
+à¸™à¸­à¸à¸ˆà¸²à¸à¸™à¸µà¹‰à¸¢à¸±à¸‡à¸¡à¸µà¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œà¸¢à¹ˆà¸­à¸¢ **general** à¸ªà¸³à¸«à¸£à¸±à¸šà¸à¸²à¸£à¸„à¹‰à¸™à¸«à¸²à¸—à¸µà¹ˆà¸‹à¸±à¸šà¸‹à¹‰à¸­à¸™à¹à¸¥à¸°à¸‡à¸²à¸™à¸«à¸¥à¸²à¸¢à¸‚à¸±à¹‰à¸™à¸•à¸­à¸™
+à¹ƒà¸Šà¹‰à¸ à¸²à¸¢à¹ƒà¸™à¹à¸¥à¸°à¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰à¹„à¸”à¹‰à¹‚à¸”à¸¢à¹ƒà¸Šà¹‰ `@general` à¹ƒà¸™à¸‚à¹‰à¸­à¸„à¸§à¸²à¸¡
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [เอเจนต์](https://opencode.ai/docs/agents)
+à¹€à¸£à¸µà¸¢à¸™à¸£à¸¹à¹‰à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡à¹€à¸à¸µà¹ˆà¸¢à¸§à¸à¸±à¸š [à¹€à¸­à¹€à¸ˆà¸™à¸•à¹Œ](https://opencode.ai/docs/agents)
 
-### เอกสารประกอบ
+### à¹€à¸­à¸à¸ªà¸²à¸£à¸›à¸£à¸°à¸à¸­à¸š
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีกำหนดค่า OpenCode [**ไปที่เอกสารของเรา**](https://opencode.ai/docs)
+à¸ªà¸³à¸«à¸£à¸±à¸šà¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡à¹€à¸à¸µà¹ˆà¸¢à¸§à¸à¸±à¸šà¸§à¸´à¸˜à¸µà¸à¸³à¸«à¸™à¸”à¸„à¹ˆà¸² OpenCode [**à¹„à¸›à¸—à¸µà¹ˆà¹€à¸­à¸à¸ªà¸²à¸£à¸‚à¸­à¸‡à¹€à¸£à¸²**](https://opencode.ai/docs)
 
-### การมีส่วนร่วม
+### à¸à¸²à¸£à¸¡à¸µà¸ªà¹ˆà¸§à¸™à¸£à¹ˆà¸§à¸¡
 
-หากคุณสนใจที่จะมีส่วนร่วมใน OpenCode โปรดอ่าน [เอกสารการมีส่วนร่วม](./CONTRIBUTING.md) ก่อนส่ง Pull Request
+à¸«à¸²à¸à¸„à¸¸à¸“à¸ªà¸™à¹ƒà¸ˆà¸—à¸µà¹ˆà¸ˆà¸°à¸¡à¸µà¸ªà¹ˆà¸§à¸™à¸£à¹ˆà¸§à¸¡à¹ƒà¸™ OpenCode à¹‚à¸›à¸£à¸”à¸­à¹ˆà¸²à¸™ [à¹€à¸­à¸à¸ªà¸²à¸£à¸à¸²à¸£à¸¡à¸µà¸ªà¹ˆà¸§à¸™à¸£à¹ˆà¸§à¸¡](./CONTRIBUTING.md) à¸à¹ˆà¸­à¸™à¸ªà¹ˆà¸‡ Pull Request
 
-### การสร้างบน OpenCode
+### à¸à¸²à¸£à¸ªà¸£à¹‰à¸²à¸‡à¸šà¸™ OpenCode
 
-หากคุณทำงานในโปรเจกต์ที่เกี่ยวข้องกับ OpenCode และใช้ "opencode" เป็นส่วนหนึ่งของชื่อ เช่น "opencode-dashboard" หรือ "opencode-mobile" โปรดเพิ่มหมายเหตุใน README ของคุณเพื่อชี้แจงว่าไม่ได้สร้างโดยทีม OpenCode และไม่ได้เกี่ยวข้องกับเราในทางใด
+à¸«à¸²à¸à¸„à¸¸à¸“à¸—à¸³à¸‡à¸²à¸™à¹ƒà¸™à¹‚à¸›à¸£à¹€à¸ˆà¸à¸•à¹Œà¸—à¸µà¹ˆà¹€à¸à¸µà¹ˆà¸¢à¸§à¸‚à¹‰à¸­à¸‡à¸à¸±à¸š OpenCode à¹à¸¥à¸°à¹ƒà¸Šà¹‰ "opencode" à¹€à¸›à¹‡à¸™à¸ªà¹ˆà¸§à¸™à¸«à¸™à¸¶à¹ˆà¸‡à¸‚à¸­à¸‡à¸Šà¸·à¹ˆà¸­ à¹€à¸Šà¹ˆà¸™ "opencode-dashboard" à¸«à¸£à¸·à¸­ "opencode-mobile" à¹‚à¸›à¸£à¸”à¹€à¸žà¸´à¹ˆà¸¡à¸«à¸¡à¸²à¸¢à¹€à¸«à¸•à¸¸à¹ƒà¸™ README à¸‚à¸­à¸‡à¸„à¸¸à¸“à¹€à¸žà¸·à¹ˆà¸­à¸Šà¸µà¹‰à¹à¸ˆà¸‡à¸§à¹ˆà¸²à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸ªà¸£à¹‰à¸²à¸‡à¹‚à¸”à¸¢à¸—à¸µà¸¡ OpenCode à¹à¸¥à¸°à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¹€à¸à¸µà¹ˆà¸¢à¸§à¸‚à¹‰à¸­à¸‡à¸à¸±à¸šà¹€à¸£à¸²à¹ƒà¸™à¸—à¸²à¸‡à¹ƒà¸”
 
 ---
 
-**ร่วมชุมชนของเรา** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+**à¸£à¹ˆà¸§à¸¡à¸Šà¸¸à¸¡à¸Šà¸™à¸‚à¸­à¸‡à¹€à¸£à¸²** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)

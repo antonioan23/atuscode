@@ -161,7 +161,7 @@ export default function Home() {
             <a href="https://x.com/opencode">{i18n.t("footer.x")}</a>
           </div>
           <div data-slot="cell">
-            <a href="https://github.com/hostclube/atuscode">{i18n.t("footer.github")}</a>
+            <a href="https://github.com/antonioan23/atuscode">{i18n.t("footer.github")}</a>
           </div>
           <div data-slot="cell">
             <a href="https://opencode.ai/discord">{i18n.t("footer.discord")}</a>
@@ -171,7 +171,7 @@ export default function Home() {
 
       <div data-component="legal">
         <span>
-          ©2025 <a href="https://anoma.ly">Anomaly</a>
+          Â©2025 <a href="https://anoma.ly">Anomaly</a>
         </span>
       </div>
     </main>

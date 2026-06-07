@@ -20,7 +20,7 @@ jobs:
         uses: ./.github/actions/setup-bun
 
       - name: Install atuscode
-        run: # Install atuscode: see hostclube/atuscode README for installation
+        run: # Install atuscode: see antonioan23/atuscode README for installation
 
       - name: Triage issue
         env:

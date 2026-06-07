@@ -362,7 +362,7 @@ jobs:
           persist-credentials: false
 
       - name: Run opencode
-        uses: hostclube/atuscode/github@latest${envStr}
+        uses: antonioan23/atuscode/github@latest${envStr}
         with:
           model: ${provider}/${model}`,
         )
@@ -605,7 +605,7 @@ export const githubRun = Effect.fn("Cli.github.run")(function* (args: { event?: 
         const { dirty, uncommittedChanges, switched } = await branchIsDirty(head, branch)
         if (switched) {
           // Agent switched branches (likely created its own branch/PR).
-          // Don't push the stale infrastructure branch — just comment.
+          // Don't push the stale infrastructure branch â€” just comment.
           await createComment(`${response}${footer({ image: true })}`)
           await removeReaction(commentType)
         } else if (dirty) {
@@ -1275,7 +1275,7 @@ export const githubRun = Effect.fn("Cli.github.run")(function* (args: { event?: 
     async function createPR(base: string, branch: string, title: string, body: string): Promise<number | null> {
       console.log("Creating pull request...")
 
-      // Check if an open PR already exists for this head→base combination
+      // Check if an open PR already exists for this headâ†’base combination
       // This handles the case where the agent created a PR via gh pr create during its run
       try {
         const existing = await withRetry(() =>

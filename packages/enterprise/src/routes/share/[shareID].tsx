@@ -281,7 +281,7 @@ export default function () {
                             <div class="flex gap-3 items-center">
                               <IconButton
                                 as={"a"}
-                                href="https://github.com/hostclube/atuscode"
+                                href="https://github.com/antonioan23/atuscode"
                                 target="_blank"
                                 icon="github"
                                 variant="ghost"
