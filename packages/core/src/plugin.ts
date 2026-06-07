@@ -95,7 +95,7 @@ export interface Interface {
   ) => Effect.Effect<HookInput<Name> & HookOutput<Name>>
 }
 
-export class Service extends Context.Service<Service, Interface>()("@opencode/v2/Plugin") {}
+export class Service extends Context.Service<Service, Interface>()("@atuscode/v2/Plugin") {}
 
 export const layer = Layer.effect(
   Service,

@@ -1,31 +1,31 @@
-import { Message, Model, Part, Session, SessionStatus, SnapshotFileDiff, UserMessage } from "@opencode-ai/sdk/v2"
-import { SessionTurn } from "@opencode-ai/ui/session-turn"
-import { SessionReview } from "@opencode-ai/ui/session-review"
-import { DataProvider } from "@opencode-ai/ui/context"
-import { FileComponentProvider } from "@opencode-ai/ui/context/file"
-import { WorkerPoolProvider } from "@opencode-ai/ui/context/worker-pool"
+import { Message, Model, Part, Session, SessionStatus, SnapshotFileDiff, UserMessage } from "@hostclube/sdk/v2"
+import { SessionTurn } from "@hostclube/ui/session-turn"
+import { SessionReview } from "@hostclube/ui/session-review"
+import { DataProvider } from "@hostclube/ui/context"
+import { FileComponentProvider } from "@hostclube/ui/context/file"
+import { WorkerPoolProvider } from "@hostclube/ui/context/worker-pool"
 import { createAsync, query, useParams } from "@solidjs/router"
 import { createMemo, createSignal, ErrorBoundary, For, Match, Show, Switch } from "solid-js"
 import { Share } from "~/core/share"
-import { Logo, Mark } from "@opencode-ai/ui/logo"
-import { IconButton } from "@opencode-ai/ui/icon-button"
-import { ProviderIcon } from "@opencode-ai/ui/provider-icon"
-import { iife } from "@opencode-ai/core/util/iife"
-import { Binary } from "@opencode-ai/core/util/binary"
-import { NamedError } from "@opencode-ai/core/util/error"
+import { Logo, Mark } from "@hostclube/ui/logo"
+import { IconButton } from "@hostclube/ui/icon-button"
+import { ProviderIcon } from "@hostclube/ui/provider-icon"
+import { iife } from "@hostclube/core/util/iife"
+import { Binary } from "@hostclube/core/util/binary"
+import { NamedError } from "@hostclube/core/util/error"
 import { DateTime } from "luxon"
 import { createStore } from "solid-js/store"
 import NotFound from "../[...404]"
-import { Tabs } from "@opencode-ai/ui/tabs"
-import { MessageNav } from "@opencode-ai/ui/message-nav"
-import { FileSSR } from "@opencode-ai/ui/file-ssr"
+import { Tabs } from "@hostclube/ui/tabs"
+import { MessageNav } from "@hostclube/ui/message-nav"
+import { FileSSR } from "@hostclube/ui/file-ssr"
 import { clientOnly } from "@solidjs/start"
 import { Meta, Title } from "@solidjs/meta"
 import { Base64 } from "js-base64"
 import { getRequestEvent } from "solid-js/web"
 
 const ClientOnlyWorkerPoolProvider = clientOnly(() =>
-  import("@opencode-ai/ui/pierre/worker").then((m) => ({
+  import("@hostclube/ui/pierre/worker").then((m) => ({
     default: (props: { children: any }) => (
       <WorkerPoolProvider pools={m.getWorkerPools()}>{props.children}</WorkerPoolProvider>
     ),
@@ -281,7 +281,7 @@ export default function () {
                             <div class="flex gap-3 items-center">
                               <IconButton
                                 as={"a"}
-                                href="https://github.com/anomalyco/opencode"
+                                href="https://github.com/hostclube/atuscode"
                                 target="_blank"
                                 icon="github"
                                 variant="ghost"

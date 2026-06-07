@@ -22,20 +22,20 @@
       "outputs": [".artifacts/unit/junit.xml"],
       "passThroughEnv": ["*"]
     },
-    "@opencode-ai/app#test": {
+    "@hostclube/app#test": {
       "dependsOn": ["^build"],
       "outputs": []
     },
-    "@opencode-ai/app#test:ci": {
+    "@hostclube/app#test:ci": {
       "dependsOn": ["^build"],
       "outputs": [".artifacts/unit/junit.xml"],
       "passThroughEnv": ["*"]
     },
-    "@opencode-ai/ui#test": {
+    "@hostclube/ui#test": {
       "dependsOn": ["^build"],
       "outputs": []
     },
-    "@opencode-ai/ui#test:ci": {
+    "@hostclube/ui#test:ci": {
       "dependsOn": ["^build"],
       "outputs": [".artifacts/unit/junit.xml"],
       "passThroughEnv": ["*"]

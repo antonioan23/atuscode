@@ -2,16 +2,16 @@ import { describe, expect } from "bun:test"
 import fs from "fs/promises"
 import path from "path"
 import { Deferred, Effect, Layer, Schema } from "effect"
-import { Config } from "@opencode-ai/core/config"
-import { ConfigReference } from "@opencode-ai/core/config/reference"
-import { FSUtil } from "@opencode-ai/core/fs-util"
-import { Flag } from "@opencode-ai/core/flag/flag"
-import { Global } from "@opencode-ai/core/global"
-import { Location } from "@opencode-ai/core/location"
-import { ProjectReference } from "@opencode-ai/core/project-reference"
-import { Repository } from "@opencode-ai/core/repository"
-import { RepositoryCache } from "@opencode-ai/core/repository-cache"
-import { AbsolutePath } from "@opencode-ai/core/schema"
+import { Config } from "@hostclube/core/config"
+import { ConfigReference } from "@hostclube/core/config/reference"
+import { FSUtil } from "@hostclube/core/fs-util"
+import { Flag } from "@hostclube/core/flag/flag"
+import { Global } from "@hostclube/core/global"
+import { Location } from "@hostclube/core/location"
+import { ProjectReference } from "@hostclube/core/project-reference"
+import { Repository } from "@hostclube/core/repository"
+import { RepositoryCache } from "@hostclube/core/repository-cache"
+import { AbsolutePath } from "@hostclube/core/schema"
 import { location } from "./fixture/location"
 import { tmpdir } from "./fixture/tmpdir"
 import { it } from "./lib/effect"
@@ -21,14 +21,14 @@ describe("ProjectReference", () => {
     withEnv(
       { OPENCODE_EXPERIMENTAL: "true", OPENCODE_EXPERIMENTAL_REFERENCES: undefined },
       Effect.sync(() => {
-        expect(Flag.OPENCODE_EXPERIMENTAL_REFERENCES).toBe(true)
+        expect(Flag.ATUSCODE_EXPERIMENTAL_REFERENCES).toBe(true)
       }),
     ).pipe(
       Effect.flatMap(() =>
         withEnv(
           { OPENCODE_EXPERIMENTAL: "true", OPENCODE_EXPERIMENTAL_REFERENCES: "false" },
           Effect.sync(() => {
-            expect(Flag.OPENCODE_EXPERIMENTAL_REFERENCES).toBe(false)
+            expect(Flag.ATUSCODE_EXPERIMENTAL_REFERENCES).toBe(false)
           }),
         ),
       ),

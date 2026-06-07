@@ -1,5 +1,5 @@
-import { getFilename } from "@opencode-ai/core/util/path"
-import { type Session } from "@opencode-ai/sdk/v2/client"
+import { getFilename } from "@hostclube/core/util/path"
+import { type Session } from "@hostclube/sdk/v2/client"
 import { pathKey } from "@/utils/path-key"
 import type { ServerConnection } from "@/context/server"
 

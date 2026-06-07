@@ -24,7 +24,7 @@ jobs:
 
       - name: Publish
         run: |
-          git config --global user.email "opencode@sst.dev"
-          git config --global user.name "opencode"
+          git config --global user.email "atuscode@hostclube.com"
+          git config --global user.name "atuscode"
           ./script/publish
         working-directory: ./github

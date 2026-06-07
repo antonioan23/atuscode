@@ -73,7 +73,7 @@ export interface Interface {
   readonly release: (cwd: string) => Effect.Effect<void>
 }
 
-export class Service extends Context.Service<Service, Interface>()("@opencode/Search") {}
+export class Service extends Context.Service<Service, Interface>()("@atuscode/Search") {}
 
 export const use = serviceUse(Service)
 

@@ -231,7 +231,7 @@ export interface Interface {
   readonly isIgnored: (path: RelativePath, type: "file" | "directory") => boolean
 }
 
-export class Service extends Context.Service<Service, Interface>()("@opencode/v2/FileSystem") {}
+export class Service extends Context.Service<Service, Interface>()("@atuscode/v2/FileSystem") {}
 
 export const layer = Layer.effect(
   Service,

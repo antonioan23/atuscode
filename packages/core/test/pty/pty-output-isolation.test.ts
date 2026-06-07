@@ -1,9 +1,9 @@
 import { describe, expect } from "bun:test"
 import { Duration, Effect, Layer, Queue } from "effect"
-import { EventV2 } from "@opencode-ai/core/event"
-import { Location } from "@opencode-ai/core/location"
-import { Pty } from "@opencode-ai/core/pty"
-import { AbsolutePath } from "@opencode-ai/core/schema"
+import { EventV2 } from "@hostclube/core/event"
+import { Location } from "@hostclube/core/location"
+import { Pty } from "@hostclube/core/pty"
+import { AbsolutePath } from "@hostclube/core/schema"
 import { location } from "../fixture/location"
 import { testEffect } from "../lib/effect"
 

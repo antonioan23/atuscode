@@ -53,14 +53,14 @@ export const Flag = {
   get OPENCODE_DISABLE_PROJECT_CONFIG() {
     return truthy("OPENCODE_DISABLE_PROJECT_CONFIG")
   },
-  get OPENCODE_EXPERIMENTAL_REFERENCES() {
-    return enabledByExperimental("OPENCODE_EXPERIMENTAL_REFERENCES")
+  get ATUSCODE_EXPERIMENTAL_REFERENCES() {
+    return enabledByExperimental("ATUSCODE_EXPERIMENTAL_REFERENCES")
   },
-  get OPENCODE_TUI_CONFIG() {
-    return process.env["OPENCODE_TUI_CONFIG"]
+  get ATUSCODE_TUI_CONFIG() {
+    return process.env["ATUSCODE_TUI_CONFIG"]
   },
-  get OPENCODE_CONFIG_DIR() {
-    return process.env["OPENCODE_CONFIG_DIR"]
+  get ATUSCODE_CONFIG_DIR() {
+    return process.env["ATUSCODE_CONFIG_DIR"]
   },
   get OPENCODE_PURE() {
     return truthy("OPENCODE_PURE")

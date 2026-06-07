@@ -1,4 +1,4 @@
-import * as Log from "@opencode-ai/core/util/log"
+import * as Log from "@hostclube/core/util/log"
 import { Effect } from "effect"
 import { HttpApiMiddleware } from "effect/unstable/httpapi"
 import { InvalidRequestError } from "../errors"
@@ -12,7 +12,7 @@ function truncateReason(reason: string) {
 }
 
 export class SchemaErrorMiddleware extends HttpApiMiddleware.Service<SchemaErrorMiddleware>()(
-  "@opencode/HttpApiSchemaError",
+  "@atuscode/HttpApiSchemaError",
   { error: InvalidRequestError },
 ) {}
 

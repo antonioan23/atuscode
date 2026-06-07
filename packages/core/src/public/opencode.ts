@@ -21,7 +21,7 @@ export interface Interface {
 }
 
 /** Intentional public native API for Effect applications embedding OpenCode. */
-export class Service extends Context.Service<Service, Interface>()("@opencode/public/OpenCode") {}
+export class Service extends Context.Service<Service, Interface>()("@atuscode/public/OpenCode") {}
 
 class SessionModelValidation extends Context.Service<
   SessionModelValidation,
@@ -30,7 +30,7 @@ class SessionModelValidation extends Context.Service<
       input: Session.SwitchModelInput & { readonly location: Session.Info["location"] },
     ) => Effect.Effect<void, Session.ModelUnavailableError | Session.VariantUnavailableError>
   }
->()("@opencode/public/OpenCode/SessionModelValidation") {}
+>()("@atuscode/public/OpenCode/SessionModelValidation") {}
 
 const LocationServicesLayer = LocationServiceMap.layer
 const SessionModelValidationLayer = Layer.effect(

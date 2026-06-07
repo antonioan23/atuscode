@@ -1,6 +1,6 @@
 export * as WebSearchTool from "./websearch"
 
-import { ToolFailure, toolText } from "@opencode-ai/llm"
+import { ToolFailure, toolText } from "@hostclube/llm"
 import { Context, Duration, Effect, Layer, Schema } from "effect"
 import { HttpClient, HttpClientRequest } from "effect/unstable/http"
 import { truthy } from "../flag/flag"
@@ -63,7 +63,7 @@ export interface Config {
   readonly parallelApiKey?: string
 }
 
-export class ConfigService extends Context.Service<ConfigService, Config>()("@opencode/v2/WebSearchConfig") {}
+export class ConfigService extends Context.Service<ConfigService, Config>()("@atuscode/v2/WebSearchConfig") {}
 
 /** Isolates the retained product environment contract from the generic tool implementation. */
 export const defaultConfigLayer = Layer.sync(ConfigService, () =>

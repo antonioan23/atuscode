@@ -10,7 +10,7 @@ on:
 jobs:
   sync-locales:
     if: false
-    #if: github.actor != 'opencode-agent[bot]'
+    #if: github.actor != 'atuscode-agent[bot]'
     runs-on: blacksmith-4vcpu-ubuntu-2404
     permissions:
       contents: write
@@ -29,8 +29,8 @@ jobs:
         id: committer
         uses: ./.github/actions/setup-git-committer
         with:
-          opencode-app-id: ${{ vars.OPENCODE_APP_ID }}
-          opencode-app-secret: ${{ secrets.OPENCODE_APP_SECRET }}
+          atuscode-app-id: ${{ vars.ATUSCODE_APP_ID }}
+          atuscode-app-secret: ${{ secrets.ATUSCODE_APP_SECRET }}
 
       - name: Compute changed English docs
         id: changes
@@ -48,14 +48,14 @@ jobs:
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
-      - name: Install OpenCode
+      - name: Install atuscode
         if: steps.changes.outputs.has_changes == 'true'
-        run: curl -fsSL https://opencode.ai/install | bash
+        run: # Install atuscode: see hostclube/atuscode README for installation
 
       - name: Sync locale docs with OpenCode
         if: steps.changes.outputs.has_changes == 'true'
         env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          ATUSCODE_API_KEY: ${{ secrets.ATUSCODE_API_KEY }}
           OPENCODE_CONFIG_CONTENT: |
             {
               "permission": {
@@ -67,7 +67,7 @@ jobs:
               }
             }
         run: |
-          opencode run --agent docs --model opencode/gpt-5.3-codex <<'EOF'
+          atuscode run --agent docs --model opencode/gpt-5.3-codex <<'EOF'
             Update localized docs to match the latest English docs changes.
 
             Changed English doc files:

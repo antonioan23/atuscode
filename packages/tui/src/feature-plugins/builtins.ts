@@ -1,4 +1,4 @@
-import type { TuiPlugin, TuiPluginModule } from "@opencode-ai/plugin/tui"
+import type { TuiPlugin, TuiPluginModule } from "@hostclube/plugin/tui"
 import HomeFooter from "./home/footer"
 import HomeTips from "./home/tips"
 import SessionSwitcher from "./session"

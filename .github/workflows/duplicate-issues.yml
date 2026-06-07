@@ -19,12 +19,12 @@ jobs:
 
       - uses: ./.github/actions/setup-bun
 
-      - name: Install opencode
-        run: curl -fsSL https://opencode.ai/install | bash
+      - name: Install atuscode
+        run: # Install atuscode: see hostclube/atuscode README for installation
 
       - name: Check duplicates and compliance
         env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          ATUSCODE_API_KEY: ${{ secrets.ATUSCODE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENCODE_PERMISSION: |
             {
@@ -35,7 +35,7 @@ jobs:
               "webfetch": "deny"
             }
         run: |
-          opencode run -m opencode/claude-sonnet-4-6 "A new issue has been created:
+          atuscode run -m opencode/claude-sonnet-4-6 "A new issue has been created:
 
           Issue number: ${{ github.event.issue.number }}
 
@@ -131,12 +131,12 @@ jobs:
 
       - uses: ./.github/actions/setup-bun
 
-      - name: Install opencode
-        run: curl -fsSL https://opencode.ai/install | bash
+      - name: Install atuscode
+        run: # Install atuscode: see hostclube/atuscode README for installation
 
       - name: Recheck compliance
         env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          ATUSCODE_API_KEY: ${{ secrets.ATUSCODE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENCODE_PERMISSION: |
             {
@@ -147,7 +147,7 @@ jobs:
               "webfetch": "deny"
             }
         run: |
-          opencode run -m opencode/claude-sonnet-4-6 "Issue #${{ github.event.issue.number }} was previously flagged as non-compliant and has been edited.
+          atuscode run -m opencode/claude-sonnet-4-6 "Issue #${{ github.event.issue.number }} was previously flagged as non-compliant and has been edited.
 
           Lookup this issue with gh issue view ${{ github.event.issue.number }}.
 
