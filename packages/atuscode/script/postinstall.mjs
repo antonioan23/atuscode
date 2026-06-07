@@ -24,9 +24,9 @@ const archMap = {
 
 const platform = platformMap[os.platform()] ?? os.platform()
 const arch = archMap[os.arch()] ?? os.arch()
-const base = `opencode-${platform}-${arch}`
-const sourceBinary = platform === "windows" ? "opencode.exe" : "opencode"
-const targetBinary = path.join(__dirname, "bin", "opencode.exe")
+const base = `atuscode-${platform}-${arch}`
+const sourceBinary = platform === "windows" ? "atuscode.exe" : "atuscode"
+const targetBinary = path.join(__dirname, "bin", "atuscode.exe")
 
 function supportsAvx2() {
   if (arch !== "x64") return false
@@ -168,14 +168,15 @@ function main() {
   for (const name of packageNames()) {
     try {
       copyBinary(resolveBinary(name), targetBinary)
-      if (verifyBinary()) return
     } catch {
-      if (installPackage(name) && verifyBinary()) return
+      // platform package not present in node_modules — fall through to installPackage
     }
+    if (verifyBinary()) return
+    if (installPackage(name) && verifyBinary()) return
   }
 
   throw new Error(
-    `It seems your package manager failed to install the right opencode CLI package. Try manually installing ${packageNames()
+    `It seems your package manager failed to install the right atuscode CLI package. Try manually installing ${packageNames()
       .map((name) => JSON.stringify(name))
       .join(" or ")}.`,
   )
